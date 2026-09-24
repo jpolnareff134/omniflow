@@ -1,0 +1,27 @@
+{
+  "default": {
+    "alpha_base": 0.05,
+    "beta": 0.5,
+    "outlier_threshold": 1.0,
+    "drift_tolerance": 3,
+    "initial_variance_floor": 1.0,
+    "warmup": 5,
+    "warmup_positive_std_only": true,
+    "variance_sensitivity": 1.0,
+    "sigma_ref": 0.0,
+    "sigma_ref_adapt": 0.01,
+    "instability_window": 20,
+    "instability_weight": 1.0,
+    "drift_boost": 1.0,
+    "drift_decay": 0.9,
+    "cooldown_rate": 0.1,
+    "urgency_smoothing": 0.6,
+    "cooldown_threshold": 0.2,
+    "outlier_decay": 0.85,
+    "interval_mapping": "linear_rate",
+    "interval_power": 2.0,
+    "interval_logistic_midpoint": 0.5,
+    "interval_logistic_steepness": 8.0,
+    "sigma_band": 3.0
+  }
+}

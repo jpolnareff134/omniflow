@@ -1,0 +1,148 @@
+# PostgreSQL StatefulSet configured for frequent checkpoints
+#
+# Settings that drive high fsync / write syscall rates:
+#   checkpoint_timeout = 30s  ->  minimum allowed; combined with 32MB max_wal_size
+#                              forces WAL-triggered checkpoints much more often
+#   fsync = on                ->  durability guarantees (fsync storms on flush)
+#   wal_level = replica       ->  extra WAL activity
+#   max_wal_size = 32MB       ->  near-minimum; forces checkpoints at WAL limit
+#
+# A pgbench Job is included to generate realistic mixed read/write I/O.
+# Run it after the StatefulSet is ready:
+#   kubectl wait --for=condition=Ready pod/postgres-0 -n omniflow-io --timeout=120s
+#   kubectl apply -f postgres.yaml  # the Job is part of this file
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres
+  namespace: omniflow-io
+  labels:
+    app: postgres
+spec:
+  clusterIP: None          # headless service for StatefulSet DNS
+  selector:
+    app: postgres
+  ports:
+    - name: postgres
+      port: 5432
+      targetPort: 5432
+
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: postgres
+  namespace: omniflow-io
+  labels:
+    app: postgres
+spec:
+  serviceName: postgres
+  replicas: 1
+  selector:
+    matchLabels:
+      app: postgres
+  template:
+    metadata:
+      labels:
+        app: postgres
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: NODE_PLACEHOLDER
+      containers:
+        - name: postgres
+          image: postgres:16
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_PASSWORD
+              value: "omniflow"
+            - name: POSTGRES_DB
+              value: "bench"
+            - name: PGDATA
+              value: /var/lib/postgresql/data/pgdata
+          volumeMounts:
+            - name: postgres-data
+              mountPath: /var/lib/postgresql/data
+          command:
+            - docker-entrypoint.sh
+            - postgres
+            - -c
+            - checkpoint_timeout=30s
+            - -c
+            - fsync=on
+            - -c
+            - synchronous_commit=on
+            - -c
+            - wal_level=replica
+            - -c
+            - max_wal_size=64MB
+            - -c
+            - min_wal_size=32MB
+            - -c
+            - log_checkpoints=on
+            - -c
+            - log_connections=off
+            - -c
+            - log_disconnections=off
+          readinessProbe:
+            exec:
+              command: [ "pg_isready", "-U", "postgres" ]
+            initialDelaySeconds: 10
+            periodSeconds: 5
+          resources:
+            requests:
+              cpu: 200m
+              memory: 256Mi
+            limits:
+              cpu: 1000m
+              memory: 512Mi
+      volumes:
+        - name: postgres-data
+          emptyDir: { }
+
+---
+# pgbench initialisation + continuous load Job.
+# Initialises a pgbench schema on postgres-0 and then runs a sustained
+# TPC-B-like workload.  Each transaction performs a mix of SELECTs and
+# UPDATEs that generate write + fsync syscalls on every checkpoint.
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pgbench
+  namespace: omniflow-io
+spec:
+  parallelism: 1
+  completions: 1
+  template:
+    spec:
+      restartPolicy: OnFailure
+      nodeSelector:
+        kubernetes.io/hostname: NODE_PLACEHOLDER
+      containers:
+        - name: pgbench
+          image: postgres:16
+          env:
+            - name: PGPASSWORD
+              value: "omniflow"
+          command:
+            - /bin/bash
+            - -c
+            - |
+              set -e
+              HOST=postgres-0.postgres.omniflow-io.svc.cluster.local
+              echo "Waiting for postgres-0 ..."
+              until pg_isready -h "$HOST" -U postgres; do sleep 2; done
+              echo "Initialising pgbench schema (scale=10) ..."
+              pgbench -h "$HOST" -U postgres -d bench -i -s 1
+              echo "Running pgbench load..."
+              pgbench -h "$HOST" -U postgres -d bench \
+                      -c 4 -j 2 -T 86400 -P 10 --progress-timestamp
+          resources:
+            requests:
+              cpu: 100m
+              memory: 64Mi
+            limits:
+              cpu: 500m
+              memory: 128Mi

@@ -1,0 +1,245 @@
+{
+  "experiment": {
+    "max_interval": 20,
+    "min_intervals": [
+      20,
+      19,
+      18,
+      17,
+      16,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "name": "common_interval_envelope",
+    "peak_recall_thresholds": [
+      1,
+      2,
+      5,
+      10,
+      20
+    ],
+    "policy": "All adaptive policies receive the same interval envelope; all other parameters remain fixed across traces. Realized sample ratio is an outcome, not a matched target."
+  },
+  "results_file": "results.csv",
+  "schema": "omniflow-cloudperftrace-common-envelope-v1",
+  "trace_stats": [
+    {
+      "base_pipeline_config": {
+        "alpha_base": 0.05,
+        "beta": 0.5,
+        "cooldown_rate": 0.1,
+        "cooldown_threshold": 0.2,
+        "drift_boost": 1.0,
+        "drift_decay": 0.9,
+        "drift_tolerance": 3,
+        "instability_weight": 1.0,
+        "instability_window": 20,
+        "interval_exponential_steepness": 4.0,
+        "interval_logistic_midpoint": 0.5,
+        "interval_logistic_steepness": 8.0,
+        "interval_mapping": "linear_rate",
+        "interval_power": 2.0,
+        "max_interval": 20,
+        "min_interval": 1,
+        "outlier_decay": 0.85,
+        "outlier_threshold": 1.0,
+        "sigma_band": 3.0,
+        "sigma_ref": 0.0,
+        "sigma_ref_adapt": 0.01,
+        "urgency_smoothing": 0.6,
+        "variance_sensitivity": 1.0,
+        "warmup": 5
+      },
+      "case": {
+        "column": "tr_self",
+        "metric": 38,
+        "name": "redis_tx_bytes",
+        "task": 5
+      },
+      "trace_stats": {
+        "max": 139436144.0,
+        "mean": 1264486.5124791285,
+        "min": 0.0,
+        "n_points": 1604068,
+        "std": 2074102.6651307754
+      }
+    },
+    {
+      "base_pipeline_config": {
+        "alpha_base": 0.05,
+        "beta": 0.5,
+        "cooldown_rate": 0.1,
+        "cooldown_threshold": 0.2,
+        "drift_boost": 1.0,
+        "drift_decay": 0.9,
+        "drift_tolerance": 3,
+        "instability_weight": 1.0,
+        "instability_window": 20,
+        "interval_exponential_steepness": 4.0,
+        "interval_logistic_midpoint": 0.5,
+        "interval_logistic_steepness": 8.0,
+        "interval_mapping": "linear_rate",
+        "interval_power": 2.0,
+        "max_interval": 20,
+        "min_interval": 1,
+        "outlier_decay": 0.85,
+        "outlier_threshold": 1.0,
+        "sigma_band": 3.0,
+        "sigma_ref": 0.0,
+        "sigma_ref_adapt": 0.01,
+        "urgency_smoothing": 0.6,
+        "variance_sensitivity": 1.0,
+        "warmup": 5
+      },
+      "case": {
+        "column": "tr_self",
+        "metric": 21,
+        "name": "websearch_involuntary_ctx_switches",
+        "task": 6
+      },
+      "trace_stats": {
+        "max": 4127.708984375,
+        "mean": 188.42804487491844,
+        "min": -500.296875,
+        "n_points": 1007614,
+        "std": 359.81388878646857
+      }
+    },
+    {
+      "base_pipeline_config": {
+        "alpha_base": 0.05,
+        "beta": 0.5,
+        "cooldown_rate": 0.1,
+        "cooldown_threshold": 0.2,
+        "drift_boost": 1.0,
+        "drift_decay": 0.9,
+        "drift_tolerance": 3,
+        "instability_weight": 1.0,
+        "instability_window": 20,
+        "interval_exponential_steepness": 4.0,
+        "interval_logistic_midpoint": 0.5,
+        "interval_logistic_steepness": 8.0,
+        "interval_mapping": "linear_rate",
+        "interval_power": 2.0,
+        "max_interval": 20,
+        "min_interval": 1,
+        "outlier_decay": 0.85,
+        "outlier_threshold": 1.0,
+        "sigma_band": 3.0,
+        "sigma_ref": 0.0,
+        "sigma_ref_adapt": 0.01,
+        "urgency_smoothing": 0.6,
+        "variance_sensitivity": 1.0,
+        "warmup": 5
+      },
+      "case": {
+        "column": "tr_self",
+        "metric": 51,
+        "name": "hbase_block_write_latency",
+        "task": 11
+      },
+      "trace_stats": {
+        "max": 17669328896.0,
+        "mean": 17467750.056900345,
+        "min": 0.0,
+        "n_points": 599177,
+        "std": 134787874.68132845
+      }
+    },
+    {
+      "base_pipeline_config": {
+        "alpha_base": 0.05,
+        "beta": 0.5,
+        "cooldown_rate": 0.1,
+        "cooldown_threshold": 0.2,
+        "drift_boost": 1.0,
+        "drift_decay": 0.9,
+        "drift_tolerance": 3,
+        "instability_weight": 1.0,
+        "instability_window": 20,
+        "interval_exponential_steepness": 4.0,
+        "interval_logistic_midpoint": 0.5,
+        "interval_logistic_steepness": 8.0,
+        "interval_mapping": "linear_rate",
+        "interval_power": 2.0,
+        "max_interval": 20,
+        "min_interval": 1,
+        "outlier_decay": 0.85,
+        "outlier_threshold": 1.0,
+        "sigma_band": 3.0,
+        "sigma_ref": 0.0,
+        "sigma_ref_adapt": 0.01,
+        "urgency_smoothing": 0.6,
+        "variance_sensitivity": 1.0,
+        "warmup": 5
+      },
+      "case": {
+        "column": "tr_self",
+        "metric": 47,
+        "name": "minio_block_read_bytes",
+        "task": 14
+      },
+      "trace_stats": {
+        "max": 72485224.0,
+        "mean": 2854135.889078683,
+        "min": 0.0,
+        "n_points": 612236,
+        "std": 6763190.177618754
+      }
+    },
+    {
+      "base_pipeline_config": {
+        "alpha_base": 0.05,
+        "beta": 0.5,
+        "cooldown_rate": 0.1,
+        "cooldown_threshold": 0.2,
+        "drift_boost": 1.0,
+        "drift_decay": 0.9,
+        "drift_tolerance": 3,
+        "instability_weight": 1.0,
+        "instability_window": 20,
+        "interval_exponential_steepness": 4.0,
+        "interval_logistic_midpoint": 0.5,
+        "interval_logistic_steepness": 8.0,
+        "interval_mapping": "linear_rate",
+        "interval_power": 2.0,
+        "max_interval": 20,
+        "min_interval": 1,
+        "outlier_decay": 0.85,
+        "outlier_threshold": 1.0,
+        "sigma_band": 3.0,
+        "sigma_ref": 0.0,
+        "sigma_ref_adapt": 0.01,
+        "urgency_smoothing": 0.6,
+        "variance_sensitivity": 1.0,
+        "warmup": 5
+      },
+      "case": {
+        "column": "tr_self",
+        "metric": 22,
+        "name": "flink_memory_rss",
+        "task": 16
+      },
+      "trace_stats": {
+        "max": 62271588.0,
+        "mean": 647490.4353488509,
+        "min": 0.0,
+        "n_points": 2329388,
+        "std": 4725050.5433413945
+      }
+    }
+  ]
+}

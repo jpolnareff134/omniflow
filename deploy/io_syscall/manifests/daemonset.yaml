@@ -1,0 +1,163 @@
+# OmniFlow I/O Syscall DaemonSet
+#
+# Runs omniflow_io_daemon.py on every node.  The daemon attaches an eBPF
+# tracepoint via BCC to count write + pwrite64 + fsync syscalls, then
+# applies OmniFlow's adaptive poller to reduce collection overhead.
+#
+# Required host volumes:
+#   /lib/modules  – kernel module headers for BCC JIT compilation
+#   /usr/src      – kernel source headers
+#   /sys/kernel/debug – eBPF debug FS (needed by BCC on some kernels)
+#
+# Security: CAP_BPF + CAP_PERFMON (Linux 5.8+) or CAP_SYS_ADMIN (older kernels).
+# On clusters that run kernel < 5.8, replace the capabilities block with:
+#   securityContext:
+#     capabilities:
+#       add: ["SYS_ADMIN"]
+
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: omniflow-io-daemon
+  namespace: omniflow-io
+
+---
+# DaemonSet pods only need to read pod metadata for future label enrichment.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: omniflow-io-daemon
+rules:
+  - apiGroups: [ "" ]
+    resources: [ "pods", "nodes" ]
+    verbs: [ "get", "list" ]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: omniflow-io-daemon
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: omniflow-io-daemon
+subjects:
+  - kind: ServiceAccount
+    name: omniflow-io-daemon
+    namespace: omniflow-io
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: omniflow-io-daemon
+  namespace: omniflow-io
+  labels:
+    app: omniflow-io-daemon
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: omniflow-io-daemon
+  template:
+    metadata:
+      labels:
+        app: omniflow-io-daemon
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "9101"
+    spec:
+      serviceAccountName: omniflow-io-daemon
+      hostPID: true          # needed so eBPF can observe all PIDs on the node
+      nodeSelector:
+        kubernetes.io/hostname: NODE_PLACEHOLDER
+      containers:
+        - name: daemon
+          image: omniflow-io-daemon:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 9101
+              name: metrics
+          env:
+            - name: NODE_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+            - name: SYSCALLS
+              value: "write,pwrite64,fsync"
+            - name: BASE_INTERVAL
+              value: "0.3"
+            - name: DAEMON_PORT
+              value: "9101"
+            - name: EMIT_UNSAMPLED_LOGS
+              value: "false"
+            - name: UPDATE_PROMETHEUS_ON_UNSAMPLED
+              value: "false"
+            - name: PROMETHEUS_UPDATE_EVERY_SAMPLED
+              value: "4"
+            - name: CPU_ACCOUNTING_SOURCE
+              value: "auto"
+            - name: CPU_ACCOUNTING_INTERVAL_TICKS
+              value: "10"
+            - name: DETAIL_TIMING_EVERY_SAMPLED
+              value: "16"
+            # OmniFlow tuning for I/O rate signals
+            # - name: OMNIFLOW_MIN_INTERVAL
+            #   value: "1"
+            # - name: OMNIFLOW_MAX_INTERVAL
+            #   value: "9"
+            # - name: OMNIFLOW_ALPHA_BASE
+            #   value: "0.08"
+            # - name: OMNIFLOW_OUTLIER_THRESHOLD
+            #   value: "1.5"
+            # - name: OMNIFLOW_DRIFT_TOLERANCE
+            #   value: "4"
+            # - name: OMNIFLOW_VARIANCE_SENSITIVITY
+            #   value: "1.5"
+            # - name: OMNIFLOW_INSTABILITY_WEIGHT
+            #   value: "1.2"
+            # - name: OMNIFLOW_INSTABILITY_WINDOW
+            #   value: "20"
+            # - name: OMNIFLOW_DRIFT_BOOST
+            #   value: "1.0"
+            # - name: OMNIFLOW_COOLDOWN_RATE
+            #   value: "0.07"
+            # Point BCC at the kernel headers baked into the image.
+            # The minikube ISO runs kernel 6.6.95; the Ubuntu mainline headers
+            # for that version are downloaded at image build time.
+            - name: BCC_KERNEL_SOURCE
+              value: "/usr/src/linux-headers-6.6.95-060695-generic"
+          securityContext:
+            capabilities:
+              add:
+                - BPF
+                - PERFMON
+                - SYS_RESOURCE      # raise rlimit for eBPF maps
+          volumeMounts:
+            - name: lib-modules
+              mountPath: /lib/modules
+              readOnly: true
+            - name: usr-src
+              mountPath: /usr/src
+              readOnly: true
+            - name: debugfs
+              mountPath: /sys/kernel/debug
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 300m
+              memory: 128Mi
+      volumes:
+        - name: lib-modules
+          hostPath:
+            path: /lib/modules
+        - name: usr-src
+          hostPath:
+            path: /usr/src
+        - name: debugfs
+          hostPath:
+            path: /sys/kernel/debug
+            type: DirectoryOrCreate

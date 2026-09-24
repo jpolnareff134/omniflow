@@ -1,0 +1,4344 @@
+{
+  "analyses": [
+    {
+      "campaign_date": "20260731",
+      "experiments": {
+        "metrics_15s": {
+          "repeats": [
+            {
+              "failures_per_second": 0.0,
+              "repeat": 1,
+              "request_rate_per_second": 51.15,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.38093307049999,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 60.38093307049999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 46.0312978,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 51.136704058666666,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 2,
+              "request_rate_per_second": 51.18,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.26022366899997,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.26022366899997,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 45.80846970666666,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 51.331420474,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 3,
+              "request_rate_per_second": 51.19,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.284281953999994,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.284281953999994,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 35.607129227,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 41.134143779000006,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 4,
+              "request_rate_per_second": 51.19,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.835990589999994,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.474311498499986,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 45.91930652533331,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 51.44849907566665,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 5,
+              "request_rate_per_second": 51.28,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.757552549999986,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.757552549999986,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 46.68991186933334,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 51.79391266033334,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 6,
+              "request_rate_per_second": 51.22,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.69065807849998,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.69065807849998,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 41.554040085333334,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 46.22766393099999,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 7,
+              "request_rate_per_second": 51.22,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.7011161595,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.7011161595,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 46.69182214566665,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 51.78898094466666,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 8,
+              "request_rate_per_second": 51.2,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.92034326899997,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.55709157549998,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 41.33792311966669,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 46.43839643166667,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 9,
+              "request_rate_per_second": 51.3,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.764026040999994,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.764026040999994,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 46.68940639999999,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 51.792565432666684,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 10,
+              "request_rate_per_second": 51.17,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.233979910000016,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.233979910000016,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 45.77388384533335,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 51.30310535933332,
+                "scale_up_transition_count": 3
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 0.0,
+              "median": 0.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_down_events": {
+              "mean": 4.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_up_events": {
+              "mean": 3.3,
+              "n": 10,
+              "stdev": 0.48304589153964794
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 51.21,
+              "median": 51.195,
+              "n": 10,
+              "stdev": 0.04737556801183939
+            },
+            "sample_ratio": {
+              "mean": 0.06666666666666667,
+              "median": 0.06666666666666667,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_decision_detected_count": 20,
+            "scale_down_decision_detection_rate": 1.0,
+            "scale_down_decision_latency_s": {
+              "mean": 61.28291052914999,
+              "median": 60.97123435399999,
+              "n": 20,
+              "stdev": 15.33477848165215
+            },
+            "scale_down_decision_transition_count": 20,
+            "scale_down_detected_count": 20,
+            "scale_down_events": {
+              "mean": 4,
+              "median": 4.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_latency_s": {
+              "mean": 61.41041745064999,
+              "median": 61.06074255599998,
+              "n": 20,
+              "stdev": 15.461892077211047
+            },
+            "scale_down_transition_count": 20,
+            "scale_up_decision_detected_count": 30,
+            "scale_up_decision_detection_rate": 1.0,
+            "scale_up_decision_latency_s": {
+              "mean": 44.210319072433336,
+              "median": 45.35240013149999,
+              "n": 30,
+              "stdev": 15.101495243790831
+            },
+            "scale_up_decision_transition_count": 30,
+            "scale_up_detected_count": 30,
+            "scale_up_events": {
+              "mean": 3.3,
+              "median": 3.0,
+              "n": 10,
+              "stdev": 0.48304589153964794
+            },
+            "scale_up_latency_s": {
+              "mean": 49.4395392147,
+              "median": 51.658539843000014,
+              "n": 30,
+              "stdev": 15.159941035275883
+            },
+            "scale_up_transition_count": 30
+          }
+        },
+        "metrics_60s": {
+          "repeats": [
+            {
+              "failures_per_second": 0.0,
+              "repeat": 1,
+              "request_rate_per_second": 50.89,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 75.57001812099998,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.57001812099998,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 55.89212226366667,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 61.423555146000005,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 2,
+              "request_rate_per_second": 51.15,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 16.194084636999946,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 16.194084636999946,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 56.467628780999995,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 61.143359006,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 3,
+              "request_rate_per_second": 51.0,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 15.926489058999948,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 15.926489058999948,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 55.75169115566667,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 60.855351331,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 4,
+              "request_rate_per_second": 51.01,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 75.60867836300002,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.60867836300002,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 55.56723613833335,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 61.09284283333333,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 5,
+              "request_rate_per_second": 51.12,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 75.61087796699996,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.61087796699996,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 55.56904115399998,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 61.09122353999999,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 6,
+              "request_rate_per_second": 51.0,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 75.971234433,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.971234433,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 55.77327972733335,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 60.88470318933335,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 7,
+              "request_rate_per_second": 50.91,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 75.93307567299996,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.93307567299996,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 55.810792998000004,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 61.34137611633332,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 8,
+              "request_rate_per_second": 51.06,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 76.20079257500004,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 76.20079257500004,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 56.08735677333335,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 61.61607242833334,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 9,
+              "request_rate_per_second": 51.19,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 16.01802217100004,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 16.01802217100004,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 65.58864872500003,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 71.11596421,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 10,
+              "request_rate_per_second": 51.23,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 16.156713980000006,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 16.156713980000006,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 56.443559469,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 61.96679442933333,
+                "scale_up_transition_count": 4
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 0.0,
+              "median": 0.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_down_events": {
+              "mean": 2.4,
+              "n": 10,
+              "stdev": 0.5163977794943223
+            },
+            "hpa_scale_up_events": {
+              "mean": 3.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 51.056,
+              "median": 51.035,
+              "n": 10,
+              "stdev": 0.11471704319759927
+            },
+            "sample_ratio": {
+              "mean": 0.016666666666666666,
+              "median": 0.016666666666666666,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_decision_detected_count": 10,
+            "scale_down_decision_detection_rate": 0.5,
+            "scale_down_decision_latency_s": {
+              "mean": 51.918998697899994,
+              "median": 75.589348242,
+              "n": 10,
+              "stdev": 30.85129133799302
+            },
+            "scale_down_decision_transition_count": 20,
+            "scale_down_detected_count": 10,
+            "scale_down_events": {
+              "mean": 2.4,
+              "median": 2.0,
+              "n": 10,
+              "stdev": 0.5163977794943223
+            },
+            "scale_down_latency_s": {
+              "mean": 51.918998697899994,
+              "median": 75.589348242,
+              "n": 10,
+              "stdev": 30.85129133799302
+            },
+            "scale_down_transition_count": 20,
+            "scale_up_decision_detected_count": 30,
+            "scale_up_decision_detection_rate": 0.75,
+            "scale_up_decision_latency_s": {
+              "mean": 56.89513571853334,
+              "median": 45.532763581,
+              "n": 30,
+              "stdev": 37.28757178019997
+            },
+            "scale_up_decision_transition_count": 40,
+            "scale_up_detected_count": 30,
+            "scale_up_events": {
+              "mean": 3.1,
+              "median": 3.0,
+              "n": 10,
+              "stdev": 0.31622776601683794
+            },
+            "scale_up_latency_s": {
+              "mean": 62.25312422296667,
+              "median": 51.564849658000014,
+              "n": 30,
+              "stdev": 37.495241736250584
+            },
+            "scale_up_transition_count": 40
+          }
+        },
+        "omniflow": {
+          "repeats": [
+            {
+              "failures_per_second": 0.0,
+              "repeat": 1,
+              "request_rate_per_second": 51.1,
+              "sample_ratio": 0.05702364394993046,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.30161012799999,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.30161012799999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 46.22961716599998,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 51.33154194533334,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 2,
+              "request_rate_per_second": 51.14,
+              "sample_ratio": 0.05874125874125874,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.3151063725,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.3151063725,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 51.28776465100001,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 56.393170789,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 3,
+              "request_rate_per_second": 51.14,
+              "sample_ratio": 0.05931612002791347,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.424974031999994,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.424974031999994,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 45.89106300600002,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 51.42001636400002,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 4,
+              "request_rate_per_second": 51.2,
+              "sample_ratio": 0.05820476858345021,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.3434673875,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.3434673875,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 50.98014959833332,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 56.499346550999995,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 5,
+              "request_rate_per_second": 51.25,
+              "sample_ratio": 0.05677785663591199,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.81971231249997,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.81971231249997,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 41.565054388666645,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 47.09772129499999,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 6,
+              "request_rate_per_second": 51.17,
+              "sample_ratio": 0.05732484076433121,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.172951982,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.172951982,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 51.23813625566665,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 56.337689583333336,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 7,
+              "request_rate_per_second": 51.17,
+              "sample_ratio": 0.055,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.63427083249999,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.63427083249999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 40.97446434466668,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 46.07560645533333,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 8,
+              "request_rate_per_second": 51.19,
+              "sample_ratio": 0.05716302046577276,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.844226432499994,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.844226432499994,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 41.629514427000004,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 47.15848258133335,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 9,
+              "request_rate_per_second": 51.17,
+              "sample_ratio": 0.05708245243128964,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.50375397800002,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.50375397800002,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 51.056823208,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 56.58190133400001,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 10,
+              "request_rate_per_second": 51.11,
+              "sample_ratio": 0.05750350631136045,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.407503206500024,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 60.407503206500024,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 40.531202717333336,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 46.060053642333344,
+                "scale_up_transition_count": 3
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 0.0,
+              "median": 0.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_down_events": {
+              "mean": 4.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_up_events": {
+              "mean": 3.4,
+              "n": 10,
+              "stdev": 0.5163977794943223
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 51.164,
+              "median": 51.17,
+              "n": 10,
+              "stdev": 0.044271887242357276
+            },
+            "sample_ratio": {
+              "mean": 0.05741374679112189,
+              "median": 0.05724393061505199,
+              "n": 10,
+              "stdev": 0.0011821974910102293
+            },
+            "scale_down_decision_detected_count": 20,
+            "scale_down_decision_detection_rate": 1.0,
+            "scale_down_decision_latency_s": {
+              "mean": 61.376757666399996,
+              "median": 61.11196598449999,
+              "n": 20,
+              "stdev": 15.457817161738328
+            },
+            "scale_down_decision_transition_count": 20,
+            "scale_down_detected_count": 20,
+            "scale_down_events": {
+              "mean": 4,
+              "median": 4.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_latency_s": {
+              "mean": 61.376757666399996,
+              "median": 61.11196598449999,
+              "n": 20,
+              "stdev": 15.457817161738328
+            },
+            "scale_down_transition_count": 20,
+            "scale_up_decision_detected_count": 30,
+            "scale_up_decision_detection_rate": 1.0,
+            "scale_up_decision_latency_s": {
+              "mean": 46.138378976266665,
+              "median": 46.01994740299999,
+              "n": 30,
+              "stdev": 26.25354376149761
+            },
+            "scale_up_decision_transition_count": 30,
+            "scale_up_detected_count": 30,
+            "scale_up_events": {
+              "mean": 3.4,
+              "median": 3.0,
+              "n": 10,
+              "stdev": 0.5163977794943223
+            },
+            "scale_up_latency_s": {
+              "mean": 51.495553054066676,
+              "median": 51.754228929500016,
+              "n": 30,
+              "stdev": 26.102579018325144
+            },
+            "scale_up_transition_count": 30
+          }
+        }
+      },
+      "kubernetes_version": "v1.30.0",
+      "load_phases": [
+        {
+          "direction": "stable",
+          "name": "warmup"
+        },
+        {
+          "direction": "up",
+          "name": "ramp"
+        },
+        {
+          "direction": "stable",
+          "name": "sustained"
+        },
+        {
+          "direction": "up",
+          "name": "fast_ramp"
+        },
+        {
+          "direction": "up",
+          "name": "spike"
+        },
+        {
+          "direction": "down",
+          "name": "cooldown"
+        },
+        {
+          "direction": "up",
+          "name": "pulse"
+        },
+        {
+          "direction": "down",
+          "name": "cooldown2"
+        },
+        {
+          "direction": "stable",
+          "name": "tail"
+        }
+      ],
+      "omniflow_config": {
+        "BASE_INTERVAL": "1.0",
+        "OMNIFLOW_CPU_TRACKER_OFFSET": "0.2",
+        "OMNIFLOW_MAX_INTERVAL": "30",
+        "OMNIFLOW_MIN_INTERVAL": "15",
+        "REFRESH_INTERVAL": "5.0"
+      },
+      "params": {
+        "arm_lead_seconds": 45,
+        "duration": 580,
+        "hpa_stable_seconds": 30,
+        "metrics_server_resolution": "60s",
+        "observe_interval": 1,
+        "post_load_seconds": 90,
+        "settle_seconds": 75
+      },
+      "repetitions": 10,
+      "shape": "phased"
+    },
+    {
+      "campaign_date": "20260731",
+      "experiments": {
+        "metrics_15s": {
+          "repeats": [
+            {
+              "failures_per_second": 0.29,
+              "repeat": 1,
+              "request_rate_per_second": 51.12,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 75.47285370700001,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.47285370700001,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 38.112876231499996,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 43.8485524555,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.41,
+              "repeat": 2,
+              "request_rate_per_second": 50.38,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 1,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 75.23513529099995,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 76.51091667899999,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 1,
+                "scale_up_decision_detection_rate": 0.25,
+                "scale_up_decision_latency_s": 45.686418014999994,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 1,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 49.516002484999994,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.27,
+              "repeat": 3,
+              "request_rate_per_second": 51.08,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 61.31116826900001,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 61.31116826900001,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 38.050205881000004,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 43.79365860299999,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.26,
+              "repeat": 4,
+              "request_rate_per_second": 51.48,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 61.734283017999985,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 61.734283017999985,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 31.999408938999995,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 37.094954298000005,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.35,
+              "repeat": 5,
+              "request_rate_per_second": 51.02,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 75.412388873,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.412388873,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 37.996625093000006,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 44.37333464400001,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.31,
+              "repeat": 6,
+              "request_rate_per_second": 51.57,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 75.41785469499996,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.41785469499996,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 38.077621617999995,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 43.81167716499999,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.27,
+              "repeat": 7,
+              "request_rate_per_second": 49.73,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 75.46095779199999,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.46095779199999,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 38.085115775,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 43.828924051,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.33,
+              "repeat": 8,
+              "request_rate_per_second": 49.6,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 1,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 75.358120305,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 76.63442584199998,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 1,
+                "scale_up_decision_detection_rate": 0.25,
+                "scale_up_decision_latency_s": 45.74863143699999,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 1,
+                "scale_up_events": 1,
+                "scale_up_latency_s": 50.856341789999995,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.63,
+              "repeat": 9,
+              "request_rate_per_second": 46.29,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 75.36173612300001,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.36173612300001,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 37.9947527915,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 43.730583169999996,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.31,
+              "repeat": 10,
+              "request_rate_per_second": 49.98,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 75.39437081400001,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.39437081400001,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 30.433399320499998,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 36.81279711549999,
+                "scale_up_transition_count": 4
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 0.34299999999999997,
+              "median": 0.31,
+              "n": 10,
+              "stdev": 0.11035800328426067
+            },
+            "hpa_scale_down_events": {
+              "mean": 2.2,
+              "n": 10,
+              "stdev": 0.4216370213557839
+            },
+            "hpa_scale_up_events": {
+              "mean": 2.2,
+              "n": 10,
+              "stdev": 0.7888106377466154
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 50.225,
+              "median": 50.7,
+              "n": 10,
+              "stdev": 1.5546364348118322
+            },
+            "sample_ratio": {
+              "mean": 0.06666666666666667,
+              "median": 0.06666666666666667,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_decision_detected_count": 10,
+            "scale_down_decision_detection_rate": 0.3448275862068966,
+            "scale_down_decision_latency_s": {
+              "mean": 72.61588688869999,
+              "median": 75.37805346850001,
+              "n": 10,
+              "stdev": 5.8478302518865135
+            },
+            "scale_down_decision_transition_count": 29,
+            "scale_down_detected_count": 10,
+            "scale_down_events": {
+              "mean": 2.2,
+              "median": 2.0,
+              "n": 10,
+              "stdev": 0.4216370213557839
+            },
+            "scale_down_latency_s": {
+              "mean": 72.8710955812,
+              "median": 75.41512178399998,
+              "n": 10,
+              "stdev": 6.000577372319421
+            },
+            "scale_down_transition_count": 29,
+            "scale_up_decision_detected_count": 18,
+            "scale_up_decision_detection_rate": 0.45,
+            "scale_up_decision_latency_s": {
+              "mean": 37.38528115283333,
+              "median": 31.999408938999995,
+              "n": 18,
+              "stdev": 7.665337589766319
+            },
+            "scale_up_decision_transition_count": 40,
+            "scale_up_detected_count": 18,
+            "scale_up_events": {
+              "mean": 2.3,
+              "median": 2.0,
+              "n": 10,
+              "stdev": 0.6749485577105528
+            },
+            "scale_up_latency_s": {
+              "mean": 43.05340595994444,
+              "median": 37.094954298000005,
+              "n": 18,
+              "stdev": 7.14163437407353
+            },
+            "scale_up_transition_count": 40
+          }
+        },
+        "metrics_60s": {
+          "repeats": [
+            {
+              "failures_per_second": 0.39,
+              "repeat": 1,
+              "request_rate_per_second": 48.51,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 106.05412668999998,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 106.05412668999998,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 45.568031338,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.303407147499996,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.23,
+              "repeat": 2,
+              "request_rate_per_second": 49.87,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 106.26255715400004,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 106.26255715400004,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 45.71996728100001,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 50.8186006285,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.32,
+              "repeat": 3,
+              "request_rate_per_second": 49.94,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 106.17229287699996,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 106.17229287699996,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 45.705139052,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 49.5302572865,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.28,
+              "repeat": 4,
+              "request_rate_per_second": 49.84,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 106.17333003600004,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 106.17333003600004,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 45.68925811849999,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 50.789781702,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.33,
+              "repeat": 5,
+              "request_rate_per_second": 49.69,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 106.10552850900001,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 106.10552850900001,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 45.60926400749999,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.34769617,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.51,
+              "repeat": 6,
+              "request_rate_per_second": 49.11,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 106.72797257600001,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 106.72797257600001,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 23.808175440499994,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 29.549816865999986,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.25,
+              "repeat": 7,
+              "request_rate_per_second": 50.57,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 106.28229793499997,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 106.28229793499997,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 45.67151201349999,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.416733171499985,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.27,
+              "repeat": 8,
+              "request_rate_per_second": 50.4,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 106.104821136,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 106.104821136,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 45.6313958945,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.37434342249999,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.35,
+              "repeat": 9,
+              "request_rate_per_second": 48.97,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 106.07557207500003,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 106.07557207500003,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 23.19124266099999,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 28.92229177449999,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.19,
+              "repeat": 10,
+              "request_rate_per_second": 49.49,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 106.18769642500001,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 106.18769642500001,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 23.2949984125,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 29.025801641999998,
+                "scale_up_transition_count": 4
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 0.312,
+              "median": 0.30000000000000004,
+              "n": 10,
+              "stdev": 0.09150591966279194
+            },
+            "hpa_scale_down_events": {
+              "mean": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_up_events": {
+              "mean": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 49.638999999999996,
+              "median": 49.765,
+              "n": 10,
+              "stdev": 0.6374506516847667
+            },
+            "sample_ratio": {
+              "mean": 0.016666666666666666,
+              "median": 0.016666666666666666,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_decision_detected_count": 10,
+            "scale_down_decision_detection_rate": 0.3333333333333333,
+            "scale_down_decision_latency_s": {
+              "mean": 106.21461954130001,
+              "median": 106.1728114565,
+              "n": 10,
+              "stdev": 0.19541398738986082
+            },
+            "scale_down_decision_transition_count": 30,
+            "scale_down_detected_count": 10,
+            "scale_down_events": {
+              "mean": 2,
+              "median": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_latency_s": {
+              "mean": 106.21461954130001,
+              "median": 106.1728114565,
+              "n": 10,
+              "stdev": 0.19541398738986082
+            },
+            "scale_down_transition_count": 30,
+            "scale_up_decision_detected_count": 20,
+            "scale_up_decision_detection_rate": 0.5,
+            "scale_up_decision_latency_s": {
+              "mean": 38.9888984219,
+              "median": 45.599255106,
+              "n": 20,
+              "stdev": 16.307410113991068
+            },
+            "scale_up_decision_transition_count": 40,
+            "scale_up_detected_count": 20,
+            "scale_up_events": {
+              "mean": 2,
+              "median": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_up_latency_s": {
+              "mean": 44.4078729811,
+              "median": 50.8737677735,
+              "n": 20,
+              "stdev": 16.469405458721315
+            },
+            "scale_up_transition_count": 40
+          }
+        },
+        "omniflow": {
+          "repeats": [
+            {
+              "failures_per_second": 0.39,
+              "repeat": 1,
+              "request_rate_per_second": 50.5,
+              "sample_ratio": 0.06050955414012739,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 75.54723578199997,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.54723578199997,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 45.7543933365,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 50.857288530000005,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.39,
+              "repeat": 2,
+              "request_rate_per_second": 50.94,
+              "sample_ratio": 0.05887939221272555,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 75.44509796299997,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 76.72144452099997,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 45.673228219500004,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.41117087799999,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.65,
+              "repeat": 3,
+              "request_rate_per_second": 45.87,
+              "sample_ratio": 0.058823529411764705,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 76.64714378900004,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 76.64714378900004,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.6666666666666666,
+                "scale_up_decision_latency_s": 45.58121599999999,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.964988176,
+                "scale_up_transition_count": 3
+              }
+            },
+            {
+              "failures_per_second": 0.22,
+              "repeat": 4,
+              "request_rate_per_second": 50.31,
+              "sample_ratio": 0.06,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 61.436559595999995,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 61.436559595999995,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 45.67302188499999,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 52.05487740499999,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.32,
+              "repeat": 5,
+              "request_rate_per_second": 50.65,
+              "sample_ratio": 0.0588703261734288,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 61.29134984299998,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 61.29134984299998,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 45.690211283500005,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.42820088699999,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.35,
+              "repeat": 6,
+              "request_rate_per_second": 51.53,
+              "sample_ratio": 0.0589171974522293,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 61.97009681200001,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 61.97009681200001,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 46.27414424999999,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.3758337555,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.37,
+              "repeat": 7,
+              "request_rate_per_second": 50.55,
+              "sample_ratio": 0.05993690851735016,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 61.47556275200003,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 61.47556275200003,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 38.6713938315,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 44.4166679345,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.33,
+              "repeat": 8,
+              "request_rate_per_second": 49.83,
+              "sample_ratio": 0.06106106106106106,
+              "scaling": {
+                "hpa_scale_down_events": 3,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 61.469412567999996,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 3,
+                "scale_down_latency_s": 61.469412567999996,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.5,
+                "scale_up_decision_latency_s": 45.699977012999994,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.43602557050001,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.47,
+              "repeat": 9,
+              "request_rate_per_second": 50.5,
+              "sample_ratio": 0.06106264869151467,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.3333333333333333,
+                "scale_down_decision_latency_s": 76.61412987600005,
+                "scale_down_decision_transition_count": 3,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 76.61412987600005,
+                "scale_down_transition_count": 3,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 45.6499958275,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.3886202345,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.56,
+              "repeat": 10,
+              "request_rate_per_second": 45.79,
+              "sample_ratio": 0.05853658536585366,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 2,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 0.5,
+                "scale_down_decision_latency_s": 75.49626568299999,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 75.49626568299999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 0.6666666666666666,
+                "scale_up_decision_latency_s": 45.693172404500004,
+                "scale_up_decision_transition_count": 3,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 2,
+                "scale_up_latency_s": 51.43383756249999,
+                "scale_up_transition_count": 3
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 0.405,
+              "median": 0.38,
+              "n": 10,
+              "stdev": 0.1247441826744282
+            },
+            "hpa_scale_down_events": {
+              "mean": 2.5,
+              "n": 10,
+              "stdev": 0.5270462766947299
+            },
+            "hpa_scale_up_events": {
+              "mean": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 49.647,
+              "median": 50.5,
+              "n": 10,
+              "stdev": 2.05776064907678
+            },
+            "sample_ratio": {
+              "mean": 0.05965972030260553,
+              "median": 0.05942705298478973,
+              "n": 10,
+              "stdev": 0.0009770049249510971
+            },
+            "scale_down_decision_detected_count": 10,
+            "scale_down_decision_detection_rate": 0.35714285714285715,
+            "scale_down_decision_latency_s": {
+              "mean": 68.7392854664,
+              "median": 68.70759738749999,
+              "n": 10,
+              "stdev": 7.613996417201683
+            },
+            "scale_down_decision_transition_count": 28,
+            "scale_down_detected_count": 10,
+            "scale_down_events": {
+              "mean": 2.5,
+              "median": 2.5,
+              "n": 10,
+              "stdev": 0.5270462766947299
+            },
+            "scale_down_latency_s": {
+              "mean": 68.8669201222,
+              "median": 68.7331812475,
+              "n": 10,
+              "stdev": 7.748408502182201
+            },
+            "scale_down_transition_count": 28,
+            "scale_up_decision_detected_count": 20,
+            "scale_up_decision_detection_rate": 0.6666666666666666,
+            "scale_up_decision_latency_s": {
+              "mean": 45.0360754051,
+              "median": 45.717907203,
+              "n": 20,
+              "stdev": 3.1813865215526844
+            },
+            "scale_up_decision_transition_count": 30,
+            "scale_up_detected_count": 20,
+            "scale_up_events": {
+              "mean": 2,
+              "median": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_up_latency_s": {
+              "mean": 50.77675109335,
+              "median": 51.6708032005,
+              "n": 20,
+              "stdev": 3.3687530569336452
+            },
+            "scale_up_transition_count": 30
+          }
+        }
+      },
+      "kubernetes_version": "v1.30.0",
+      "load_phases": [
+        {
+          "direction": "stable",
+          "name": "warmup"
+        },
+        {
+          "direction": "up",
+          "name": "spike1"
+        },
+        {
+          "direction": "down",
+          "name": "valley1"
+        },
+        {
+          "direction": "up",
+          "name": "spike2"
+        },
+        {
+          "direction": "down",
+          "name": "valley2"
+        },
+        {
+          "direction": "up",
+          "name": "spike3"
+        },
+        {
+          "direction": "down",
+          "name": "valley3"
+        },
+        {
+          "direction": "up",
+          "name": "spike4"
+        },
+        {
+          "direction": "down",
+          "name": "valley4"
+        },
+        {
+          "direction": "stable",
+          "name": "tail"
+        }
+      ],
+      "omniflow_config": {
+        "BASE_INTERVAL": "1.0",
+        "OMNIFLOW_CPU_TRACKER_OFFSET": "0.2",
+        "OMNIFLOW_MAX_INTERVAL": "30",
+        "OMNIFLOW_MIN_INTERVAL": "15",
+        "REFRESH_INTERVAL": "5.0"
+      },
+      "params": {
+        "arm_lead_seconds": 45,
+        "duration": 430,
+        "hpa_stable_seconds": 30,
+        "metrics_server_resolution": "60s",
+        "observe_interval": 1,
+        "post_load_seconds": 90,
+        "settle_seconds": 75
+      },
+      "repetitions": 10,
+      "shape": "oscillating"
+    },
+    {
+      "campaign_date": "20260731",
+      "experiments": {
+        "metrics_15s": {
+          "repeats": [
+            {
+              "failures_per_second": 0.0,
+              "repeat": 1,
+              "request_rate_per_second": 90.8,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.368378398999994,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.368378398999994,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 26.863173964999994,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 32.92767565174999,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 2,
+              "request_rate_per_second": 90.99,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.610017253000024,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.610017253000024,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 28.079922808250007,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 33.182920824500016,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 3,
+              "request_rate_per_second": 91.05,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.71793454800007,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.71793454800007,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 27.79766479824999,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 33.21830857425001,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 4,
+              "request_rate_per_second": 90.83,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.26101153399998,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.26101153399998,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 26.79098871825,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 32.8506031455,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 5,
+              "request_rate_per_second": 90.8,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.08298597500004,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.08298597500004,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 27.26859615649999,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 32.687212626500006,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 6,
+              "request_rate_per_second": 90.87,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.21747669399997,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.21747669399997,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 26.993264351750017,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 32.73338582075,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 7,
+              "request_rate_per_second": 90.87,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.192850169999986,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.192850169999986,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 26.99554534224999,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 32.73841269799999,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 8,
+              "request_rate_per_second": 90.82,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.152046661999975,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.152046661999975,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 27.05359531899999,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 32.79413500174999,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 9,
+              "request_rate_per_second": 90.86,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.298286631999986,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.298286631999986,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 30.277696309666666,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 36.65642705766667,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 10,
+              "request_rate_per_second": 90.82,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.263623396000014,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.263623396000014,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 26.777706838749996,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 32.84096296874999,
+                "scale_up_transition_count": 5
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 0.0,
+              "median": 0.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_down_events": {
+              "mean": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_up_events": {
+              "mean": 3.9,
+              "n": 10,
+              "stdev": 0.31622776601683794
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 90.871,
+              "median": 90.845,
+              "n": 10,
+              "stdev": 0.08385834616913354
+            },
+            "sample_ratio": {
+              "mean": 0.06666666666666667,
+              "median": 0.06666666666666667,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_decision_detected_count": 10,
+            "scale_down_decision_detection_rate": 1.0,
+            "scale_down_decision_latency_s": {
+              "mean": 61.316461126300005,
+              "median": 61.262317464999995,
+              "n": 10,
+              "stdev": 0.20079526749420123
+            },
+            "scale_down_decision_transition_count": 10,
+            "scale_down_detected_count": 10,
+            "scale_down_events": {
+              "mean": 2,
+              "median": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_latency_s": {
+              "mean": 61.316461126300005,
+              "median": 61.262317464999995,
+              "n": 10,
+              "stdev": 0.20079526749420123
+            },
+            "scale_down_transition_count": 10,
+            "scale_up_decision_detected_count": 39,
+            "scale_up_decision_detection_rate": 0.7959183673469388,
+            "scale_up_decision_latency_s": {
+              "mean": 27.418331336435894,
+              "median": 30.318218822000006,
+              "n": 39,
+              "stdev": 6.256074483912609
+            },
+            "scale_up_decision_transition_count": 49,
+            "scale_up_detected_count": 39,
+            "scale_up_events": {
+              "mean": 3.9,
+              "median": 4.0,
+              "n": 10,
+              "stdev": 0.31622776601683794
+            },
+            "scale_up_latency_s": {
+              "mean": 33.17599360051282,
+              "median": 36.64421651399999,
+              "n": 39,
+              "stdev": 6.594368390872107
+            },
+            "scale_up_transition_count": 49
+          }
+        },
+        "metrics_60s": {
+          "repeats": [
+            {
+              "failures_per_second": 0.0,
+              "repeat": 1,
+              "request_rate_per_second": 90.8,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 1,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 105.85290501899999,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 1,
+                "scale_down_latency_s": 105.85290501899999,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.6,
+                "scale_up_decision_latency_s": 65.29272418266667,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 70.815319657,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 2,
+              "request_rate_per_second": 90.83,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 1,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 106.15544461299999,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 1,
+                "scale_down_latency_s": 106.15544461299999,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.6,
+                "scale_up_decision_latency_s": 65.436832377,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 70.54614430633332,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 3,
+              "request_rate_per_second": 90.74,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 1,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 106.36651880199997,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 1,
+                "scale_down_latency_s": 106.36651880199997,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.6,
+                "scale_up_decision_latency_s": 65.56115561433332,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 70.24057998466667,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 4,
+              "request_rate_per_second": 90.84,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 1,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 106.23678459199994,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 1,
+                "scale_down_latency_s": 106.23678459199994,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.6,
+                "scale_up_decision_latency_s": 65.477695867,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 71.42908700400001,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 5,
+              "request_rate_per_second": 90.83,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 1,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 106.301764166,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 1,
+                "scale_down_latency_s": 106.301764166,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.6,
+                "scale_up_decision_latency_s": 65.559025775,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 71.08610256666668,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 6,
+              "request_rate_per_second": 90.85,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 1,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 106.22290280600004,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 1,
+                "scale_down_latency_s": 106.22290280600004,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.6,
+                "scale_up_decision_latency_s": 65.51868708599999,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 71.47560904733334,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 7,
+              "request_rate_per_second": 90.81,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 1,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 106.21649555599998,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 1,
+                "scale_down_latency_s": 106.21649555599998,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.6,
+                "scale_up_decision_latency_s": 65.49976506866668,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 71.44987695833335,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 8,
+              "request_rate_per_second": 90.77,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 1,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 106.16046048500004,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 1,
+                "scale_down_latency_s": 106.16046048500004,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.6,
+                "scale_up_decision_latency_s": 65.53484208633336,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 71.06706585066667,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 9,
+              "request_rate_per_second": 90.78,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 1,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 106.25594608200004,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 1,
+                "scale_down_latency_s": 106.25594608200004,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.6,
+                "scale_up_decision_latency_s": 65.50799786166668,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 71.46404369833334,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 10,
+              "request_rate_per_second": 90.78,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 1,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 106.14061879499997,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 1,
+                "scale_down_latency_s": 106.14061879499997,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.6,
+                "scale_up_decision_latency_s": 65.452738326,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 71.40528676966667,
+                "scale_up_transition_count": 5
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 0.0,
+              "median": 0.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_down_events": {
+              "mean": 1.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_up_events": {
+              "mean": 3.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 90.803,
+              "median": 90.805,
+              "n": 10,
+              "stdev": 0.03529242915351107
+            },
+            "sample_ratio": {
+              "mean": 0.016666666666666666,
+              "median": 0.016666666666666666,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_decision_detected_count": 10,
+            "scale_down_decision_detection_rate": 1.0,
+            "scale_down_decision_latency_s": {
+              "mean": 106.1909840916,
+              "median": 106.21969918100001,
+              "n": 10,
+              "stdev": 0.13747763945391858
+            },
+            "scale_down_decision_transition_count": 10,
+            "scale_down_detected_count": 10,
+            "scale_down_events": {
+              "mean": 1,
+              "median": 1.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_latency_s": {
+              "mean": 106.1909840916,
+              "median": 106.21969918100001,
+              "n": 10,
+              "stdev": 0.13747763945391858
+            },
+            "scale_down_transition_count": 10,
+            "scale_up_decision_detected_count": 30,
+            "scale_up_decision_detection_rate": 0.6,
+            "scale_up_decision_latency_s": {
+              "mean": 65.48414642446667,
+              "median": 45.6440030555,
+              "n": 30,
+              "stdev": 28.66881931433145
+            },
+            "scale_up_decision_transition_count": 50,
+            "scale_up_detected_count": 30,
+            "scale_up_events": {
+              "mean": 3,
+              "median": 3.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_up_latency_s": {
+              "mean": 71.09791158430001,
+              "median": 51.818569878000005,
+              "n": 30,
+              "stdev": 29.048560061155243
+            },
+            "scale_up_transition_count": 50
+          }
+        },
+        "omniflow": {
+          "repeats": [
+            {
+              "failures_per_second": 0.0,
+              "repeat": 1,
+              "request_rate_per_second": 90.89,
+              "sample_ratio": 0.05292307692307692,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.16316350000005,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.16316350000005,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 35.351158845666674,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 41.734789180666674,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 2,
+              "request_rate_per_second": 90.84,
+              "sample_ratio": 0.052825552825552825,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.24625757900003,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.24625757900003,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 30.706864701666664,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 36.66089479299999,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 3,
+              "request_rate_per_second": 90.85,
+              "sample_ratio": 0.0525990099009901,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.47176612699997,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.47176612699997,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 35.49133284633332,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 41.445672796333334,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 4,
+              "request_rate_per_second": 90.86,
+              "sample_ratio": 0.05321100917431193,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.333027598,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.333027598,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 30.71438782466667,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 36.668097653,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 5,
+              "request_rate_per_second": 90.86,
+              "sample_ratio": 0.052825552825552825,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.26037105400002,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.26037105400002,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 31.12433911933333,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 36.65357874333333,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 6,
+              "request_rate_per_second": 90.84,
+              "sample_ratio": 0.05334150827713059,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.29109923200002,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.29109923200002,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 31.149846166999996,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 36.68155159566667,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 7,
+              "request_rate_per_second": 90.81,
+              "sample_ratio": 0.052599388379204894,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.25553794799998,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.25553794799998,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 31.086708296333352,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 36.620204511333334,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 8,
+              "request_rate_per_second": 90.81,
+              "sample_ratio": 0.052825552825552825,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.25088514600003,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.25088514600003,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 3,
+                "scale_up_decision_detection_rate": 0.75,
+                "scale_up_decision_latency_s": 31.146518663000005,
+                "scale_up_decision_transition_count": 4,
+                "scale_up_detected_count": 3,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 36.67555487733333,
+                "scale_up_transition_count": 4
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 9,
+              "request_rate_per_second": 90.91,
+              "sample_ratio": 0.05309181761399125,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.553821509000045,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 60.553821509000045,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 27.333650085749998,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 32.43194187124999,
+                "scale_up_transition_count": 5
+              }
+            },
+            {
+              "failures_per_second": 0.0,
+              "repeat": 10,
+              "request_rate_per_second": 90.86,
+              "sample_ratio": 0.05383153894870171,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 1,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.19537745399998,
+                "scale_down_decision_transition_count": 1,
+                "scale_down_detected_count": 1,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 61.19537745399998,
+                "scale_down_transition_count": 1,
+                "scale_up_decision_detected_count": 4,
+                "scale_up_decision_detection_rate": 0.8,
+                "scale_up_decision_latency_s": 30.873244857999996,
+                "scale_up_decision_transition_count": 5,
+                "scale_up_detected_count": 4,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 36.611955725249985,
+                "scale_up_transition_count": 5
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 0.0,
+              "median": 0.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_down_events": {
+              "mean": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_up_events": {
+              "mean": 3.9,
+              "n": 10,
+              "stdev": 0.31622776601683794
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 90.853,
+              "median": 90.85499999999999,
+              "n": 10,
+              "stdev": 0.031287200080684564
+            },
+            "sample_ratio": {
+              "mean": 0.05300740076940659,
+              "median": 0.052874314874314876,
+              "n": 10,
+              "stdev": 0.0003769744905254916
+            },
+            "scale_down_decision_detected_count": 10,
+            "scale_down_decision_detection_rate": 1.0,
+            "scale_down_decision_latency_s": {
+              "mean": 61.20213071470001,
+              "median": 61.25321154700001,
+              "n": 10,
+              "stdev": 0.24271381585364524
+            },
+            "scale_down_decision_transition_count": 10,
+            "scale_down_detected_count": 10,
+            "scale_down_events": {
+              "mean": 2,
+              "median": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_latency_s": {
+              "mean": 61.20213071470001,
+              "median": 61.25321154700001,
+              "n": 10,
+              "stdev": 0.24271381585364524
+            },
+            "scale_down_transition_count": 10,
+            "scale_up_decision_detected_count": 32,
+            "scale_up_decision_detection_rate": 0.7619047619047619,
+            "scale_up_decision_latency_s": {
+              "mean": 31.34815778646875,
+              "median": 31.077565231999984,
+              "n": 32,
+              "stdev": 4.633836702512939
+            },
+            "scale_up_decision_transition_count": 42,
+            "scale_up_detected_count": 32,
+            "scale_up_events": {
+              "mean": 3.9,
+              "median": 4.0,
+              "n": 10,
+              "stdev": 0.31622776601683794
+            },
+            "scale_up_latency_s": {
+              "mean": 37.049894463687494,
+              "median": 36.65048934699999,
+              "n": 32,
+              "stdev": 4.6788773667760415
+            },
+            "scale_up_transition_count": 42
+          }
+        }
+      },
+      "kubernetes_version": "v1.30.0",
+      "load_phases": [
+        {
+          "direction": "stable",
+          "name": "baseline"
+        },
+        {
+          "direction": "up",
+          "name": "step1"
+        },
+        {
+          "direction": "up",
+          "name": "step2"
+        },
+        {
+          "direction": "up",
+          "name": "step3"
+        },
+        {
+          "direction": "up",
+          "name": "step4"
+        },
+        {
+          "direction": "up",
+          "name": "step5"
+        },
+        {
+          "direction": "stable",
+          "name": "sustained_peak"
+        },
+        {
+          "direction": "down",
+          "name": "hard_drop"
+        }
+      ],
+      "omniflow_config": {
+        "BASE_INTERVAL": "1.0",
+        "OMNIFLOW_CPU_TRACKER_OFFSET": "0.2",
+        "OMNIFLOW_MAX_INTERVAL": "30",
+        "OMNIFLOW_MIN_INTERVAL": "15",
+        "REFRESH_INTERVAL": "5.0"
+      },
+      "params": {
+        "arm_lead_seconds": 45,
+        "duration": 580,
+        "hpa_stable_seconds": 30,
+        "metrics_server_resolution": "60s",
+        "observe_interval": 1,
+        "post_load_seconds": 90,
+        "settle_seconds": 75
+      },
+      "repetitions": 10,
+      "shape": "staircase"
+    },
+    {
+      "campaign_date": "20260731",
+      "experiments": {
+        "metrics_15s": {
+          "repeats": [
+            {
+              "failures_per_second": 0.72,
+              "repeat": 1,
+              "request_rate_per_second": 91.32,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 5,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.47248074850002,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 62.111090371,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 39.32617979200002,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 5,
+                "scale_up_latency_s": 45.06827250150002,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.62,
+              "repeat": 2,
+              "request_rate_per_second": 75.39,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 68.07387996599999,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 68.07387996599999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 68.880317086,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 73.98424148699999,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.84,
+              "repeat": 3,
+              "request_rate_per_second": 85.3,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.491481777999994,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.12854132899999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 46.00082859349999,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 51.74351948750001,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.56,
+              "repeat": 4,
+              "request_rate_per_second": 78.48,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.57322585599999,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.57322585599999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 61.75163010400001,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 5,
+                "scale_up_latency_s": 66.2184621945,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.57,
+              "repeat": 5,
+              "request_rate_per_second": 74.75,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.078337081499996,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.078337081499996,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 68.91265068249999,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 74.01797237099998,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.39,
+              "repeat": 6,
+              "request_rate_per_second": 75.85,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.588077002999995,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 60.588077002999995,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 68.3701701325,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 74.114445378,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.56,
+              "repeat": 7,
+              "request_rate_per_second": 91.51,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.589028197000005,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.22879949200001,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 30.743860185500015,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 36.484430663,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.57,
+              "repeat": 8,
+              "request_rate_per_second": 91.0,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.656606843499986,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 60.656606843499986,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 30.77019723449999,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 36.50883905200001,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.5,
+              "repeat": 9,
+              "request_rate_per_second": 75.29,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.56894032550001,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 60.56894032550001,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 68.38079132300001,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 74.122601333,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.57,
+              "repeat": 10,
+              "request_rate_per_second": 91.98,
+              "sample_ratio": 0.06666666666666667,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.60233662100002,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 60.60233662100002,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 38.40080438249999,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 43.49737914449999,
+                "scale_up_transition_count": 2
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 1.09,
+              "median": 1.115,
+              "n": 10,
+              "stdev": 0.47274611462061633
+            },
+            "hpa_scale_down_events": {
+              "mean": 4.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_up_events": {
+              "mean": 3.3,
+              "n": 10,
+              "stdev": 0.6749485577105528
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 83.087,
+              "median": 81.89,
+              "n": 10,
+              "stdev": 7.8064703220398455
+            },
+            "sample_ratio": {
+              "mean": 0.06666666666666667,
+              "median": 0.06666666666666667,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_decision_detected_count": 20,
+            "scale_down_decision_detection_rate": 1.0,
+            "scale_down_decision_latency_s": {
+              "mean": 61.569439442000004,
+              "median": 60.76213082250001,
+              "n": 20,
+              "stdev": 3.3294859039039353
+            },
+            "scale_down_decision_transition_count": 20,
+            "scale_down_detected_count": 20,
+            "scale_down_events": {
+              "mean": 4,
+              "median": 4.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_latency_s": {
+              "mean": 61.76098348885,
+              "median": 60.797649448000016,
+              "n": 20,
+              "stdev": 3.3031071102504974
+            },
+            "scale_down_transition_count": 20,
+            "scale_up_decision_detected_count": 20,
+            "scale_up_decision_detection_rate": 1.0,
+            "scale_up_decision_latency_s": {
+              "mean": 52.1537429516,
+              "median": 31.48661678249999,
+              "n": 20,
+              "stdev": 31.476056479018034
+            },
+            "scale_up_decision_transition_count": 20,
+            "scale_up_detected_count": 20,
+            "scale_up_events": {
+              "mean": 3.5,
+              "median": 3.0,
+              "n": 10,
+              "stdev": 0.8498365855987975
+            },
+            "scale_up_latency_s": {
+              "mean": 57.576016361200004,
+              "median": 36.7131951595,
+              "n": 20,
+              "stdev": 31.31510856640918
+            },
+            "scale_up_transition_count": 20
+          }
+        },
+        "metrics_60s": {
+          "repeats": [
+            {
+              "failures_per_second": 1.66,
+              "repeat": 1,
+              "request_rate_per_second": 74.22,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 121.6812308865,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 121.6812308865,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 76.402850028,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 82.143506731,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.1,
+              "repeat": 2,
+              "request_rate_per_second": 81.58,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 121.03801603050002,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 121.03801603050002,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 60.502935376,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 65.602958646,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.87,
+              "repeat": 3,
+              "request_rate_per_second": 84.79,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 121.15594393200003,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 121.15594393200003,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 82.9056715615,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 89.28279035649999,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.02,
+              "repeat": 4,
+              "request_rate_per_second": 82.32,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 120.81203509250001,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 121.45424831199999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 90.751048212,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 95.8530310175,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.99,
+              "repeat": 5,
+              "request_rate_per_second": 85.08,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 121.377720896,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 121.377720896,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 83.060742344,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 88.16071058399999,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.19,
+              "repeat": 6,
+              "request_rate_per_second": 82.72,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 121.38895709549996,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 121.38895709549996,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 60.73125535150001,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 65.83759285750001,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.14,
+              "repeat": 7,
+              "request_rate_per_second": 81.43,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 121.30851725849999,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 121.30851725849999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 90.64470742000002,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 96.39209505350001,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.13,
+              "repeat": 8,
+              "request_rate_per_second": 83.05,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 121.78987211949998,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 121.78987211949998,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 91.104119502,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 95.5700593295,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.05,
+              "repeat": 9,
+              "request_rate_per_second": 84.05,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 121.64891770899999,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 121.64891770899999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 61.6303453405,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 5,
+                "scale_up_latency_s": 66.094400197,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.92,
+              "repeat": 10,
+              "request_rate_per_second": 85.16,
+              "sample_ratio": 0.016666666666666666,
+              "scaling": {
+                "hpa_scale_down_events": 2,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 121.22191392700002,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 2,
+                "scale_down_latency_s": 121.22191392700002,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 82.96838654350002,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 89.34824603300001,
+                "scale_up_transition_count": 2
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 1.107,
+              "median": 1.0750000000000002,
+              "n": 10,
+              "stdev": 0.21858382577146204
+            },
+            "hpa_scale_down_events": {
+              "mean": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_up_events": {
+              "mean": 3.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 82.44,
+              "median": 82.88499999999999,
+              "n": 10,
+              "stdev": 3.2020063154910305
+            },
+            "sample_ratio": {
+              "mean": 0.016666666666666666,
+              "median": 0.016666666666666666,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_decision_detected_count": 20,
+            "scale_down_decision_detection_rate": 1.0,
+            "scale_down_decision_latency_s": {
+              "mean": 121.3423124947,
+              "median": 120.986920918,
+              "n": 20,
+              "stdev": 15.374984391525867
+            },
+            "scale_down_decision_transition_count": 20,
+            "scale_down_detected_count": 20,
+            "scale_down_events": {
+              "mean": 2,
+              "median": 2.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_latency_s": {
+              "mean": 121.40653381665,
+              "median": 121.37607723699999,
+              "n": 20,
+              "stdev": 15.438727135365253
+            },
+            "scale_down_transition_count": 20,
+            "scale_up_decision_detected_count": 20,
+            "scale_up_decision_detection_rate": 1.0,
+            "scale_up_decision_latency_s": {
+              "mean": 78.07020616790001,
+              "median": 75.8677881125,
+              "n": 20,
+              "stdev": 23.439694457351155
+            },
+            "scale_up_decision_transition_count": 20,
+            "scale_up_detected_count": 20,
+            "scale_up_events": {
+              "mean": 3.5,
+              "median": 3.0,
+              "n": 10,
+              "stdev": 0.7071067811865476
+            },
+            "scale_up_latency_s": {
+              "mean": 83.42853908055,
+              "median": 80.9489384735,
+              "n": 20,
+              "stdev": 23.471049924275608
+            },
+            "scale_up_transition_count": 20
+          }
+        },
+        "omniflow": {
+          "repeats": [
+            {
+              "failures_per_second": 0.68,
+              "repeat": 1,
+              "request_rate_per_second": 89.8,
+              "sample_ratio": 0.05966064586754242,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 62.08399810899998,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 62.08399810899998,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 46.937095682000006,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 51.40762901950001,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.87,
+              "repeat": 2,
+              "request_rate_per_second": 89.11,
+              "sample_ratio": 0.06045751633986928,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.587027213,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.2247056225,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 39.054855766999985,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 44.16109980299999,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.67,
+              "repeat": 3,
+              "request_rate_per_second": 89.62,
+              "sample_ratio": 0.06040637012630423,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.21321116450001,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.21321116450001,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 39.013796459500014,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 44.11764231099999,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.28,
+              "repeat": 4,
+              "request_rate_per_second": 82.93,
+              "sample_ratio": 0.05964912280701754,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 60.58532290250001,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.22181873000001,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 53.710076308500014,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 58.8103963825,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.76,
+              "repeat": 5,
+              "request_rate_per_second": 88.93,
+              "sample_ratio": 0.06070640176600441,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 62.12906305900002,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 62.12906305900002,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 39.342986749,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 44.44984145850002,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 1.22,
+              "repeat": 6,
+              "request_rate_per_second": 83.02,
+              "sample_ratio": 0.05923753665689149,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.16083832699999,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.16083832699999,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 53.664108227000014,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 58.764983714500005,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.74,
+              "repeat": 7,
+              "request_rate_per_second": 88.73,
+              "sample_ratio": 0.06137968495382944,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 68.61088914449999,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 69.24821249000001,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 46.47717478700001,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 5,
+                "scale_up_latency_s": 51.581680296500004,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.97,
+              "repeat": 8,
+              "request_rate_per_second": 88.87,
+              "sample_ratio": 0.06133625410733844,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.1810394825,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.1810394825,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 46.02605887449998,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 51.76659180249999,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.71,
+              "repeat": 9,
+              "request_rate_per_second": 88.16,
+              "sample_ratio": 0.06062261059530311,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 4,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.6841261955,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 61.6841261955,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 39.454578790000014,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 4,
+                "scale_up_latency_s": 44.55497175900001,
+                "scale_up_transition_count": 2
+              }
+            },
+            {
+              "failures_per_second": 0.71,
+              "repeat": 10,
+              "request_rate_per_second": 88.25,
+              "sample_ratio": 0.06053935057787562,
+              "scaling": {
+                "hpa_scale_down_events": 4,
+                "hpa_scale_up_events": 3,
+                "scale_down_decision_detected_count": 2,
+                "scale_down_decision_detection_rate": 1.0,
+                "scale_down_decision_latency_s": 61.52073336149998,
+                "scale_down_decision_transition_count": 2,
+                "scale_down_detected_count": 2,
+                "scale_down_events": 4,
+                "scale_down_latency_s": 62.1572704835,
+                "scale_down_transition_count": 2,
+                "scale_up_decision_detected_count": 2,
+                "scale_up_decision_detection_rate": 1.0,
+                "scale_up_decision_latency_s": 39.3824826775,
+                "scale_up_decision_transition_count": 2,
+                "scale_up_detected_count": 2,
+                "scale_up_events": 3,
+                "scale_up_latency_s": 44.4904520855,
+                "scale_up_transition_count": 2
+              }
+            }
+          ],
+          "summary": {
+            "failures_per_s": {
+              "mean": 0.861,
+              "median": 0.75,
+              "n": 10,
+              "stdev": 0.22511478553543893
+            },
+            "hpa_scale_down_events": {
+              "mean": 4.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "hpa_scale_up_events": {
+              "mean": 3.7,
+              "n": 10,
+              "stdev": 0.48304589153964794
+            },
+            "repetitions": 10,
+            "req_per_s": {
+              "mean": 87.742,
+              "median": 88.80000000000001,
+              "n": 10,
+              "stdev": 2.5642620770896256
+            },
+            "sample_ratio": {
+              "mean": 0.0603995493797976,
+              "median": 0.06049843345887245,
+              "n": 10,
+              "stdev": 0.0007042994358970203
+            },
+            "scale_down_decision_detected_count": 20,
+            "scale_down_decision_detection_rate": 1.0,
+            "scale_down_decision_latency_s": {
+              "mean": 62.0756248959,
+              "median": 61.43504957249999,
+              "n": 20,
+              "stdev": 3.3587171954981576
+            },
+            "scale_down_decision_transition_count": 20,
+            "scale_down_detected_count": 20,
+            "scale_down_events": {
+              "mean": 4,
+              "median": 4.0,
+              "n": 10,
+              "stdev": 0.0
+            },
+            "scale_down_latency_s": {
+              "mean": 62.33042836635,
+              "median": 61.6817873455,
+              "n": 20,
+              "stdev": 3.29186438625961
+            },
+            "scale_down_transition_count": 20,
+            "scale_up_decision_detected_count": 20,
+            "scale_up_decision_detection_rate": 1.0,
+            "scale_up_decision_latency_s": {
+              "mean": 44.3063214322,
+              "median": 46.47729774199999,
+              "n": 20,
+              "stdev": 12.902637647583271
+            },
+            "scale_up_decision_transition_count": 20,
+            "scale_up_detected_count": 20,
+            "scale_up_events": {
+              "mean": 3.8,
+              "median": 4.0,
+              "n": 10,
+              "stdev": 0.6324555320336759
+            },
+            "scale_up_latency_s": {
+              "mean": 49.41052886325,
+              "median": 51.576663033,
+              "n": 20,
+              "stdev": 12.90279250806361
+            },
+            "scale_up_transition_count": 20
+          }
+        }
+      },
+      "kubernetes_version": "v1.30.0",
+      "load_phases": [
+        {
+          "direction": "stable",
+          "name": "warmup"
+        },
+        {
+          "direction": "up",
+          "name": "flash1"
+        },
+        {
+          "direction": "down",
+          "name": "drop1"
+        },
+        {
+          "direction": "stable",
+          "name": "rest"
+        },
+        {
+          "direction": "up",
+          "name": "flash2"
+        },
+        {
+          "direction": "down",
+          "name": "drop2"
+        },
+        {
+          "direction": "stable",
+          "name": "tail"
+        }
+      ],
+      "omniflow_config": {
+        "BASE_INTERVAL": "1.0",
+        "OMNIFLOW_CPU_TRACKER_OFFSET": "0.2",
+        "OMNIFLOW_MAX_INTERVAL": "30",
+        "OMNIFLOW_MIN_INTERVAL": "15",
+        "REFRESH_INTERVAL": "5.0"
+      },
+      "params": {
+        "arm_lead_seconds": 45,
+        "duration": 520,
+        "hpa_stable_seconds": 30,
+        "metrics_server_resolution": "60s",
+        "observe_interval": 1,
+        "post_load_seconds": 90,
+        "settle_seconds": 75
+      },
+      "repetitions": 10,
+      "shape": "flash_crowd"
+    }
+  ],
+  "kubernetes_version": "v1.30.0",
+  "schema": "omniflow-k8s-paper-summary-v1",
+  "shapes": [
+    "phased",
+    "oscillating",
+    "staircase",
+    "flash_crowd"
+  ]
+}

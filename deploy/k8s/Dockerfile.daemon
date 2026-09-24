@@ -1,0 +1,15 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY deploy/k8s/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# OmniFlow library
+COPY src/ ./src/
+
+# Daemon entry point
+COPY deploy/k8s/omniflow_daemon.py .
+
+ENV PYTHONUNBUFFERED=1
+ENTRYPOINT ["python", "omniflow_daemon.py"]

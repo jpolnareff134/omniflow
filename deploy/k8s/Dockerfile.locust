@@ -1,0 +1,11 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir locust
+
+COPY deploy/k8s/locustfile.py deploy/k8s/load_schedule.py ./
+
+ENV PYTHONUNBUFFERED=1
+ENTRYPOINT ["locust"]
+CMD ["--locustfile=/app/locustfile.py", "--headless", "--only-summary"]

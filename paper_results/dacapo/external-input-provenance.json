@@ -1,0 +1,9 @@
+{
+  "cassandra_data_zip_sha256": "ebf8a6b94f1d5640ee8630f82711ce016a318cfceca15c7e31acd8d714693a8f",
+  "external_runtime_sha256": {
+    "benchmarks.jar": "03dae4d926aba665cfdf3b22d0cd71221d2fe0303b1113c0c0ba2e53dfe54598",
+    "cassandra.jar": "e92e780b25003169a419c98bea8cb2138e24675b90bd6a137ba892a7435ff4e4"
+  },
+  "note": "Benchmark archives are external inputs and are not included. The agent JAR is rebuilt from included Java sources at staging.",
+  "recorded_agent_sha256": "ce05a7cbf465be775b2052eb7b8caa096a99159ce4a8c84b101ff913158f089c"
+}

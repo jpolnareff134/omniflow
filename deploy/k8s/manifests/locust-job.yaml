@@ -1,0 +1,48 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: locust-load
+  namespace: ${OMNIFLOW_NAMESPACE}
+spec:
+  backoffLimit: 0
+  template:
+    metadata:
+      labels:
+        app: locust
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: locust
+          image: omniflow-locust:latest
+          imagePullPolicy: Never
+          env:
+            - name: TARGET_HOST
+              value: "http://nginx.${OMNIFLOW_NAMESPACE}.svc"
+            - name: LOAD_SHAPE
+              value: "phased"
+            - name: EXPERIMENT_RELEASE_FILE
+              value: "/tmp/locust-release"
+            - name: EXPERIMENT_SEED
+              value: "0"
+            - name: LOCUST_WAIT_SECONDS
+              value: "1.0"
+          command:
+            - locust
+            - "--locustfile=/app/locustfile.py"
+            - "--headless"
+            - "--only-summary"
+            # Request failures are an experiment result, not a harness failure.
+            - "--exit-code-on-error"
+            - "0"
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 256Mi
+          readinessProbe:
+            exec:
+              command: ["test", "-f", "/tmp/locust-armed"]
+            periodSeconds: 1
+            failureThreshold: 120

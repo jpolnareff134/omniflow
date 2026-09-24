@@ -1,0 +1,2887 @@
+{
+  "details": [
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-01",
+      "request_types": 400,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1296.0769648755584,
+      "policy": "adp",
+      "rep": "rep-01",
+      "request_types": 400,
+      "selection_ratio": 0.25963734487340734
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 977.4668451157216,
+      "policy": "inv",
+      "rep": "rep-01",
+      "request_types": 400,
+      "selection_ratio": 0.2683849294084704
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1197.4386747845092,
+      "policy": "uni",
+      "rep": "rep-01",
+      "request_types": 400,
+      "selection_ratio": 0.4999880365289651
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1274.0695359265324,
+      "policy": "omni",
+      "rep": "rep-01",
+      "request_types": 400,
+      "selection_ratio": 0.7044040183159674
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-02",
+      "request_types": 400,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1263.7480618335405,
+      "policy": "adp",
+      "rep": "rep-02",
+      "request_types": 400,
+      "selection_ratio": 0.2615050489459831
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 842.2520352167918,
+      "policy": "inv",
+      "rep": "rep-02",
+      "request_types": 400,
+      "selection_ratio": 0.28043231916663997
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1389.3391135763027,
+      "policy": "uni",
+      "rep": "rep-02",
+      "request_types": 400,
+      "selection_ratio": 0.49998980438862084
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1428.8755530927067,
+      "policy": "omni",
+      "rep": "rep-02",
+      "request_types": 400,
+      "selection_ratio": 0.7052698678136868
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-03",
+      "request_types": 400,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1057.793719273768,
+      "policy": "adp",
+      "rep": "rep-03",
+      "request_types": 400,
+      "selection_ratio": 0.2832855258600706
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1296.7860731422973,
+      "policy": "inv",
+      "rep": "rep-03",
+      "request_types": 400,
+      "selection_ratio": 0.2844883171282166
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1239.2632245763855,
+      "policy": "uni",
+      "rep": "rep-03",
+      "request_types": 400,
+      "selection_ratio": 0.4999875054474516
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1064.7999336346602,
+      "policy": "omni",
+      "rep": "rep-03",
+      "request_types": 400,
+      "selection_ratio": 0.7051602837095046
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-04",
+      "request_types": 400,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1263.9676116434223,
+      "policy": "adp",
+      "rep": "rep-04",
+      "request_types": 400,
+      "selection_ratio": 0.2684427579423482
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1106.9391558626683,
+      "policy": "inv",
+      "rep": "rep-04",
+      "request_types": 400,
+      "selection_ratio": 0.27371740451058985
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1028.3374253835616,
+      "policy": "uni",
+      "rep": "rep-04",
+      "request_types": 400,
+      "selection_ratio": 0.49999012655175534
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1370.3757157341322,
+      "policy": "omni",
+      "rep": "rep-04",
+      "request_types": 400,
+      "selection_ratio": 0.7117832771695911
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-05",
+      "request_types": 400,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1383.8770908031556,
+      "policy": "adp",
+      "rep": "rep-05",
+      "request_types": 400,
+      "selection_ratio": 0.2639580072284018
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1357.9462972634485,
+      "policy": "inv",
+      "rep": "rep-05",
+      "request_types": 400,
+      "selection_ratio": 0.2801692673662776
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1602.4285931539773,
+      "policy": "uni",
+      "rep": "rep-05",
+      "request_types": 400,
+      "selection_ratio": 0.49998817478111796
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1271.3839979317786,
+      "policy": "omni",
+      "rep": "rep-05",
+      "request_types": 400,
+      "selection_ratio": 0.7042246481864596
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-06",
+      "request_types": 400,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1123.4479854254241,
+      "policy": "adp",
+      "rep": "rep-06",
+      "request_types": 400,
+      "selection_ratio": 0.26827202403621
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1137.8728338160277,
+      "policy": "inv",
+      "rep": "rep-06",
+      "request_types": 400,
+      "selection_ratio": 0.27956408256866877
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1157.2074901621247,
+      "policy": "uni",
+      "rep": "rep-06",
+      "request_types": 400,
+      "selection_ratio": 0.4999893626529794
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1128.6665409491845,
+      "policy": "omni",
+      "rep": "rep-06",
+      "request_types": 400,
+      "selection_ratio": 0.7111435355299016
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-07",
+      "request_types": 400,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 868.0840855657092,
+      "policy": "adp",
+      "rep": "rep-07",
+      "request_types": 400,
+      "selection_ratio": 0.27384552544308116
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1319.974951021771,
+      "policy": "inv",
+      "rep": "rep-07",
+      "request_types": 400,
+      "selection_ratio": 0.28612457825950305
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1283.3742002698102,
+      "policy": "uni",
+      "rep": "rep-07",
+      "request_types": 400,
+      "selection_ratio": 0.499987818931528
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 958.1656764687938,
+      "policy": "omni",
+      "rep": "rep-07",
+      "request_types": 400,
+      "selection_ratio": 0.7140122504311915
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-08",
+      "request_types": 400,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 510.82472762415244,
+      "policy": "adp",
+      "rep": "rep-08",
+      "request_types": 400,
+      "selection_ratio": 0.23583191763035136
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1145.9586551660807,
+      "policy": "inv",
+      "rep": "rep-08",
+      "request_types": 400,
+      "selection_ratio": 0.2825547118809394
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1148.7253646678255,
+      "policy": "uni",
+      "rep": "rep-08",
+      "request_types": 400,
+      "selection_ratio": 0.49998785675632773
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1242.7055400302715,
+      "policy": "omni",
+      "rep": "rep-08",
+      "request_types": 400,
+      "selection_ratio": 0.7097079754486204
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-09",
+      "request_types": 400,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1461.9254898901634,
+      "policy": "adp",
+      "rep": "rep-09",
+      "request_types": 400,
+      "selection_ratio": 0.25745831297359945
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1096.8448033569637,
+      "policy": "inv",
+      "rep": "rep-09",
+      "request_types": 400,
+      "selection_ratio": 0.2923918411576108
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1276.2309166687683,
+      "policy": "uni",
+      "rep": "rep-09",
+      "request_types": 400,
+      "selection_ratio": 0.4999881109943317
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1427.7638807759015,
+      "policy": "omni",
+      "rep": "rep-09",
+      "request_types": 400,
+      "selection_ratio": 0.7040030531974929
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-10",
+      "request_types": 400,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 961.1674709370852,
+      "policy": "adp",
+      "rep": "rep-10",
+      "request_types": 400,
+      "selection_ratio": 0.2725862219307905
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1079.6220703738848,
+      "policy": "inv",
+      "rep": "rep-10",
+      "request_types": 400,
+      "selection_ratio": 0.26800838046393677
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1255.5273632894337,
+      "policy": "uni",
+      "rep": "rep-10",
+      "request_types": 400,
+      "selection_ratio": 0.49998879658360207
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": 1250.4056409377324,
+      "policy": "omni",
+      "rep": "rep-10",
+      "request_types": 400,
+      "selection_ratio": 0.7001219349891
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-01",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 383.12347468695754,
+      "policy": "adp",
+      "rep": "rep-01",
+      "request_types": 8,
+      "selection_ratio": 0.43155197331732337
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 422.9362115274265,
+      "policy": "inv",
+      "rep": "rep-01",
+      "request_types": 8,
+      "selection_ratio": 0.1759815938535682
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 502.624700075097,
+      "policy": "uni",
+      "rep": "rep-01",
+      "request_types": 8,
+      "selection_ratio": 0.5002440631786598
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 347.8095151285824,
+      "policy": "omni",
+      "rep": "rep-01",
+      "request_types": 8,
+      "selection_ratio": 0.21994526835120776
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-02",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 359.37058945017816,
+      "policy": "adp",
+      "rep": "rep-02",
+      "request_types": 8,
+      "selection_ratio": 0.4409912584303964
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 345.8918590413266,
+      "policy": "inv",
+      "rep": "rep-02",
+      "request_types": 8,
+      "selection_ratio": 0.1753960860757902
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 346.87681692262305,
+      "policy": "uni",
+      "rep": "rep-02",
+      "request_types": 8,
+      "selection_ratio": 0.5002492357128034
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 277.49761581747924,
+      "policy": "omni",
+      "rep": "rep-02",
+      "request_types": 8,
+      "selection_ratio": 0.21967139004809372
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-03",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 464.20301058126705,
+      "policy": "adp",
+      "rep": "rep-03",
+      "request_types": 8,
+      "selection_ratio": 0.4397077659942573
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 439.79187908011926,
+      "policy": "inv",
+      "rep": "rep-03",
+      "request_types": 8,
+      "selection_ratio": 0.17230716778329544
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 265.99230118346617,
+      "policy": "uni",
+      "rep": "rep-03",
+      "request_types": 8,
+      "selection_ratio": 0.5002466756834577
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 238.23537698325072,
+      "policy": "omni",
+      "rep": "rep-03",
+      "request_types": 8,
+      "selection_ratio": 0.2188114172110196
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-04",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 339.43933481626635,
+      "policy": "adp",
+      "rep": "rep-04",
+      "request_types": 8,
+      "selection_ratio": 0.42716038199976203
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 398.09231132000957,
+      "policy": "inv",
+      "rep": "rep-04",
+      "request_types": 8,
+      "selection_ratio": 0.18878404487379247
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 275.6481602673965,
+      "policy": "uni",
+      "rep": "rep-04",
+      "request_types": 8,
+      "selection_ratio": 0.5002509135587203
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 267.37044213093674,
+      "policy": "omni",
+      "rep": "rep-04",
+      "request_types": 8,
+      "selection_ratio": 0.21760743108576988
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-05",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 507.5452857796239,
+      "policy": "adp",
+      "rep": "rep-05",
+      "request_types": 8,
+      "selection_ratio": 0.4385260803033535
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 331.68951536655806,
+      "policy": "inv",
+      "rep": "rep-05",
+      "request_types": 8,
+      "selection_ratio": 0.18553994384922115
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 374.2418380617557,
+      "policy": "uni",
+      "rep": "rep-05",
+      "request_types": 8,
+      "selection_ratio": 0.5002460625555947
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 334.4835849533391,
+      "policy": "omni",
+      "rep": "rep-05",
+      "request_types": 8,
+      "selection_ratio": 0.22021231685856185
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-06",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 396.85532319013697,
+      "policy": "adp",
+      "rep": "rep-06",
+      "request_types": 8,
+      "selection_ratio": 0.42608915254926016
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 402.0341741458148,
+      "policy": "inv",
+      "rep": "rep-06",
+      "request_types": 8,
+      "selection_ratio": 0.16890811305674014
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 371.3800941567367,
+      "policy": "uni",
+      "rep": "rep-06",
+      "request_types": 8,
+      "selection_ratio": 0.5002581319560611
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 346.14244969994536,
+      "policy": "omni",
+      "rep": "rep-06",
+      "request_types": 8,
+      "selection_ratio": 0.2200664204382234
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-07",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 397.7172085552343,
+      "policy": "adp",
+      "rep": "rep-07",
+      "request_types": 8,
+      "selection_ratio": 0.4336481985684441
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 581.2745551018645,
+      "policy": "inv",
+      "rep": "rep-07",
+      "request_types": 8,
+      "selection_ratio": 0.1788714326305884
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 316.35450389320516,
+      "policy": "uni",
+      "rep": "rep-07",
+      "request_types": 8,
+      "selection_ratio": 0.500256714211147
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 461.3842909419596,
+      "policy": "omni",
+      "rep": "rep-07",
+      "request_types": 8,
+      "selection_ratio": 0.23223777880314156
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-08",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 329.2256530515723,
+      "policy": "adp",
+      "rep": "rep-08",
+      "request_types": 8,
+      "selection_ratio": 0.4383719858996809
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 409.41343664936335,
+      "policy": "inv",
+      "rep": "rep-08",
+      "request_types": 8,
+      "selection_ratio": 0.1783178391819386
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 267.6522674962634,
+      "policy": "uni",
+      "rep": "rep-08",
+      "request_types": 8,
+      "selection_ratio": 0.5002490299249771
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 338.0123062136682,
+      "policy": "omni",
+      "rep": "rep-08",
+      "request_types": 8,
+      "selection_ratio": 0.21267283471955187
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-09",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 396.6551950826766,
+      "policy": "adp",
+      "rep": "rep-09",
+      "request_types": 8,
+      "selection_ratio": 0.4307217885811862
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 456.8843379680979,
+      "policy": "inv",
+      "rep": "rep-09",
+      "request_types": 8,
+      "selection_ratio": 0.16433221462078987
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 397.5128146564386,
+      "policy": "uni",
+      "rep": "rep-09",
+      "request_types": 8,
+      "selection_ratio": 0.5002493880524543
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 342.0943107990097,
+      "policy": "omni",
+      "rep": "rep-09",
+      "request_types": 8,
+      "selection_ratio": 0.225702896946385
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-10",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 291.57550097037586,
+      "policy": "adp",
+      "rep": "rep-10",
+      "request_types": 8,
+      "selection_ratio": 0.4493321623035838
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 336.1165658571649,
+      "policy": "inv",
+      "rep": "rep-10",
+      "request_types": 8,
+      "selection_ratio": 0.1910831910979097
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 306.4862722713306,
+      "policy": "uni",
+      "rep": "rep-10",
+      "request_types": 8,
+      "selection_ratio": 0.5002468556273258
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": 392.5353820239995,
+      "policy": "omni",
+      "rep": "rep-10",
+      "request_types": 8,
+      "selection_ratio": 0.2224855466227756
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-01",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 2189.2434569396914,
+      "policy": "adp",
+      "rep": "rep-01",
+      "request_types": 10074,
+      "selection_ratio": 0.4973180594269907
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 4562.912534139745,
+      "policy": "inv",
+      "rep": "rep-01",
+      "request_types": 10074,
+      "selection_ratio": 0.16175917800729853
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 4438.767593737387,
+      "policy": "uni",
+      "rep": "rep-01",
+      "request_types": 10074,
+      "selection_ratio": 0.49998701396127043
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1209.8214930035524,
+      "policy": "omni",
+      "rep": "rep-01",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-02",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 969.6454494994287,
+      "policy": "adp",
+      "rep": "rep-02",
+      "request_types": 10074,
+      "selection_ratio": 0.4984537748442695
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 4045.8109195561497,
+      "policy": "inv",
+      "rep": "rep-02",
+      "request_types": 10074,
+      "selection_ratio": 0.16121993039279325
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 2779.8115370144333,
+      "policy": "uni",
+      "rep": "rep-02",
+      "request_types": 10074,
+      "selection_ratio": 0.49998888903771904
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1921.885928480081,
+      "policy": "omni",
+      "rep": "rep-02",
+      "request_types": 10074,
+      "selection_ratio": 0.9998715393064193
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-03",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 2033.2430798215216,
+      "policy": "adp",
+      "rep": "rep-03",
+      "request_types": 10074,
+      "selection_ratio": 0.49805049906798377
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 3593.1495352181487,
+      "policy": "inv",
+      "rep": "rep-03",
+      "request_types": 10074,
+      "selection_ratio": 0.16467738458512707
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 3815.588484184946,
+      "policy": "uni",
+      "rep": "rep-03",
+      "request_types": 10074,
+      "selection_ratio": 0.4999895772570417
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1359.5114993600607,
+      "policy": "omni",
+      "rep": "rep-03",
+      "request_types": 10074,
+      "selection_ratio": 0.9996860478219834
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-04",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1329.1891621086656,
+      "policy": "adp",
+      "rep": "rep-04",
+      "request_types": 10074,
+      "selection_ratio": 0.49900676961173485
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 3339.3132584282334,
+      "policy": "inv",
+      "rep": "rep-04",
+      "request_types": 10074,
+      "selection_ratio": 0.1596056884307063
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1671.5122539459933,
+      "policy": "uni",
+      "rep": "rep-04",
+      "request_types": 10074,
+      "selection_ratio": 0.49998855916219215
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1126.5265330632851,
+      "policy": "omni",
+      "rep": "rep-04",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-05",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1840.2284252567326,
+      "policy": "adp",
+      "rep": "rep-05",
+      "request_types": 10074,
+      "selection_ratio": 0.49660649254556066
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 2927.6687909429097,
+      "policy": "inv",
+      "rep": "rep-05",
+      "request_types": 10074,
+      "selection_ratio": 0.1601411855936417
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 4048.2945326136823,
+      "policy": "uni",
+      "rep": "rep-05",
+      "request_types": 10074,
+      "selection_ratio": 0.49998781882377524
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1695.7308961533085,
+      "policy": "omni",
+      "rep": "rep-05",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-06",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 2171.839286910637,
+      "policy": "adp",
+      "rep": "rep-06",
+      "request_types": 10074,
+      "selection_ratio": 0.4980396244964679
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 3965.978323731581,
+      "policy": "inv",
+      "rep": "rep-06",
+      "request_types": 10074,
+      "selection_ratio": 0.1639555013364991
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 4089.2397871490393,
+      "policy": "uni",
+      "rep": "rep-06",
+      "request_types": 10074,
+      "selection_ratio": 0.4999884644568593
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1585.4870673460603,
+      "policy": "omni",
+      "rep": "rep-06",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-07",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1584.2329456818018,
+      "policy": "adp",
+      "rep": "rep-07",
+      "request_types": 10074,
+      "selection_ratio": 0.4962828877121794
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 3088.419814467871,
+      "policy": "inv",
+      "rep": "rep-07",
+      "request_types": 10074,
+      "selection_ratio": 0.1598026491528349
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 3779.3827714212066,
+      "policy": "uni",
+      "rep": "rep-07",
+      "request_types": 10074,
+      "selection_ratio": 0.49998705294639
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1623.398432865979,
+      "policy": "omni",
+      "rep": "rep-07",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-08",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1432.4838963123627,
+      "policy": "adp",
+      "rep": "rep-08",
+      "request_types": 10074,
+      "selection_ratio": 0.4958202529835059
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 3421.0665435812703,
+      "policy": "inv",
+      "rep": "rep-08",
+      "request_types": 10074,
+      "selection_ratio": 0.16022926505503612
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 3504.798024284548,
+      "policy": "uni",
+      "rep": "rep-08",
+      "request_types": 10074,
+      "selection_ratio": 0.4999892680601442
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1315.1233685023892,
+      "policy": "omni",
+      "rep": "rep-08",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-09",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1565.658763235174,
+      "policy": "adp",
+      "rep": "rep-09",
+      "request_types": 10074,
+      "selection_ratio": 0.49732843264305676
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 3199.080225295157,
+      "policy": "inv",
+      "rep": "rep-09",
+      "request_types": 10074,
+      "selection_ratio": 0.16038772965521952
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 2777.57695828076,
+      "policy": "uni",
+      "rep": "rep-09",
+      "request_types": 10074,
+      "selection_ratio": 0.49998659029907483
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 712.364513944574,
+      "policy": "omni",
+      "rep": "rep-09",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-10",
+      "request_types": 10074,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1783.5293558636358,
+      "policy": "adp",
+      "rep": "rep-10",
+      "request_types": 10074,
+      "selection_ratio": 0.49867101735906916
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 4368.875866896411,
+      "policy": "inv",
+      "rep": "rep-10",
+      "request_types": 10074,
+      "selection_ratio": 0.16172824569237498
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 4239.312968148366,
+      "policy": "uni",
+      "rep": "rep-10",
+      "request_types": 10074,
+      "selection_ratio": 0.4999889959688289
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": 1253.0583825690655,
+      "policy": "omni",
+      "rep": "rep-10",
+      "request_types": 10074,
+      "selection_ratio": 0.9999253824601563
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-01",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 367.34420538508624,
+      "policy": "adp",
+      "rep": "rep-01",
+      "request_types": 8,
+      "selection_ratio": 0.4477044614393422
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 488.5696544575073,
+      "policy": "inv",
+      "rep": "rep-01",
+      "request_types": 8,
+      "selection_ratio": 0.1983344971071907
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 270.41683926007846,
+      "policy": "uni",
+      "rep": "rep-01",
+      "request_types": 8,
+      "selection_ratio": 0.5002507647879832
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 254.1001902503321,
+      "policy": "omni",
+      "rep": "rep-01",
+      "request_types": 8,
+      "selection_ratio": 0.25831834488356176
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-02",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 378.07554573295124,
+      "policy": "adp",
+      "rep": "rep-02",
+      "request_types": 8,
+      "selection_ratio": 0.45985801560758083
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 470.4065562548487,
+      "policy": "inv",
+      "rep": "rep-02",
+      "request_types": 8,
+      "selection_ratio": 0.18726476788049834
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 379.4264175325523,
+      "policy": "uni",
+      "rep": "rep-02",
+      "request_types": 8,
+      "selection_ratio": 0.5002569538353825
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 421.16079435131155,
+      "policy": "omni",
+      "rep": "rep-02",
+      "request_types": 8,
+      "selection_ratio": 0.2561415625117199
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-03",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 440.9928103229763,
+      "policy": "adp",
+      "rep": "rep-03",
+      "request_types": 8,
+      "selection_ratio": 0.4539228858279977
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 338.50910587817543,
+      "policy": "inv",
+      "rep": "rep-03",
+      "request_types": 8,
+      "selection_ratio": 0.19282990669081207
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 388.79412280799,
+      "policy": "uni",
+      "rep": "rep-03",
+      "request_types": 8,
+      "selection_ratio": 0.5002526228351775
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 337.882496703442,
+      "policy": "omni",
+      "rep": "rep-03",
+      "request_types": 8,
+      "selection_ratio": 0.2576410874219361
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-04",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 430.2763977389058,
+      "policy": "adp",
+      "rep": "rep-04",
+      "request_types": 8,
+      "selection_ratio": 0.45985329025899674
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 490.4386413248426,
+      "policy": "inv",
+      "rep": "rep-04",
+      "request_types": 8,
+      "selection_ratio": 0.19367671915310025
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 469.6210488075889,
+      "policy": "uni",
+      "rep": "rep-04",
+      "request_types": 8,
+      "selection_ratio": 0.500255657878093
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 452.1004485991078,
+      "policy": "omni",
+      "rep": "rep-04",
+      "request_types": 8,
+      "selection_ratio": 0.25720024018054954
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-05",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 416.8088194154069,
+      "policy": "adp",
+      "rep": "rep-05",
+      "request_types": 8,
+      "selection_ratio": 0.4480420018648027
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 358.6992110406286,
+      "policy": "inv",
+      "rep": "rep-05",
+      "request_types": 8,
+      "selection_ratio": 0.1887690364988942
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 402.54066138950935,
+      "policy": "uni",
+      "rep": "rep-05",
+      "request_types": 8,
+      "selection_ratio": 0.5002526421863783
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 242.5394539101991,
+      "policy": "omni",
+      "rep": "rep-05",
+      "request_types": 8,
+      "selection_ratio": 0.25898447036550987
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-06",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 387.7762828800841,
+      "policy": "adp",
+      "rep": "rep-06",
+      "request_types": 8,
+      "selection_ratio": 0.44546012229423687
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 345.2246521115921,
+      "policy": "inv",
+      "rep": "rep-06",
+      "request_types": 8,
+      "selection_ratio": 0.1809567152121623
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 414.8569949651895,
+      "policy": "uni",
+      "rep": "rep-06",
+      "request_types": 8,
+      "selection_ratio": 0.5002502281913034
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 359.288118977403,
+      "policy": "omni",
+      "rep": "rep-06",
+      "request_types": 8,
+      "selection_ratio": 0.2583391214563125
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-07",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 315.37737329579096,
+      "policy": "adp",
+      "rep": "rep-07",
+      "request_types": 8,
+      "selection_ratio": 0.4452925052301339
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 227.23042146102622,
+      "policy": "inv",
+      "rep": "rep-07",
+      "request_types": 8,
+      "selection_ratio": 0.19809512663623954
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 291.2963644736787,
+      "policy": "uni",
+      "rep": "rep-07",
+      "request_types": 8,
+      "selection_ratio": 0.500255860585603
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 326.7687960229431,
+      "policy": "omni",
+      "rep": "rep-07",
+      "request_types": 8,
+      "selection_ratio": 0.2624860572886808
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-08",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 438.77581510166846,
+      "policy": "adp",
+      "rep": "rep-08",
+      "request_types": 8,
+      "selection_ratio": 0.4666330388492226
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 416.0771390287039,
+      "policy": "inv",
+      "rep": "rep-08",
+      "request_types": 8,
+      "selection_ratio": 0.16455695297358883
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 418.57527281766113,
+      "policy": "uni",
+      "rep": "rep-08",
+      "request_types": 8,
+      "selection_ratio": 0.5002462261583717
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 392.03771959057735,
+      "policy": "omni",
+      "rep": "rep-08",
+      "request_types": 8,
+      "selection_ratio": 0.2689398816138415
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-09",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 514.2237021839051,
+      "policy": "adp",
+      "rep": "rep-09",
+      "request_types": 8,
+      "selection_ratio": 0.4531575828142471
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 348.2394195392514,
+      "policy": "inv",
+      "rep": "rep-09",
+      "request_types": 8,
+      "selection_ratio": 0.19632553831657237
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 323.82626886930814,
+      "policy": "uni",
+      "rep": "rep-09",
+      "request_types": 8,
+      "selection_ratio": 0.5002666510828903
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 292.89564649103426,
+      "policy": "omni",
+      "rep": "rep-09",
+      "request_types": 8,
+      "selection_ratio": 0.26550730724138316
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-10",
+      "request_types": 8,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 286.8642954184601,
+      "policy": "adp",
+      "rep": "rep-10",
+      "request_types": 8,
+      "selection_ratio": 0.4599483181161664
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 410.7477791771087,
+      "policy": "inv",
+      "rep": "rep-10",
+      "request_types": 8,
+      "selection_ratio": 0.18551653938945403
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 342.39648333875044,
+      "policy": "uni",
+      "rep": "rep-10",
+      "request_types": 8,
+      "selection_ratio": 0.5002563065368906
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": 484.5455711851204,
+      "policy": "omni",
+      "rep": "rep-10",
+      "request_types": 8,
+      "selection_ratio": 0.24830037611755515
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-01",
+      "request_types": 17,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1260.6821894174238,
+      "policy": "adp",
+      "rep": "rep-01",
+      "request_types": 17,
+      "selection_ratio": 0.045753815687358944
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1531.9870383501352,
+      "policy": "inv",
+      "rep": "rep-01",
+      "request_types": 17,
+      "selection_ratio": 0.17925527370126507
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1009.1010040015665,
+      "policy": "uni",
+      "rep": "rep-01",
+      "request_types": 17,
+      "selection_ratio": 0.5002468175786619
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1199.2068470579218,
+      "policy": "omni",
+      "rep": "rep-01",
+      "request_types": 17,
+      "selection_ratio": 0.22674245528382345
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-02",
+      "request_types": 17,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1528.5260673670962,
+      "policy": "adp",
+      "rep": "rep-02",
+      "request_types": 17,
+      "selection_ratio": 0.041951195133942916
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1482.6069799316044,
+      "policy": "inv",
+      "rep": "rep-02",
+      "request_types": 17,
+      "selection_ratio": 0.17991654284802613
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1289.0064120687864,
+      "policy": "uni",
+      "rep": "rep-02",
+      "request_types": 17,
+      "selection_ratio": 0.5002773105097185
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1362.4294170863925,
+      "policy": "omni",
+      "rep": "rep-02",
+      "request_types": 17,
+      "selection_ratio": 0.23182495967864641
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-03",
+      "request_types": 17,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1192.9670095700203,
+      "policy": "adp",
+      "rep": "rep-03",
+      "request_types": 17,
+      "selection_ratio": 0.046311441011198315
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1365.5138196834696,
+      "policy": "inv",
+      "rep": "rep-03",
+      "request_types": 17,
+      "selection_ratio": 0.18146055476502873
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1105.5699193012388,
+      "policy": "uni",
+      "rep": "rep-03",
+      "request_types": 17,
+      "selection_ratio": 0.5002572638691498
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1055.1578427904922,
+      "policy": "omni",
+      "rep": "rep-03",
+      "request_types": 17,
+      "selection_ratio": 0.22567367026363858
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-04",
+      "request_types": 17,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1496.3041265885524,
+      "policy": "adp",
+      "rep": "rep-04",
+      "request_types": 17,
+      "selection_ratio": 0.04453174546685408
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1674.9067956470765,
+      "policy": "inv",
+      "rep": "rep-04",
+      "request_types": 17,
+      "selection_ratio": 0.17810381330690148
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1029.8221127935665,
+      "policy": "uni",
+      "rep": "rep-04",
+      "request_types": 17,
+      "selection_ratio": 0.5002492347720571
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1042.2358654041543,
+      "policy": "omni",
+      "rep": "rep-04",
+      "request_types": 17,
+      "selection_ratio": 0.22720247129598922
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-05",
+      "request_types": 17,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1071.5761985520342,
+      "policy": "adp",
+      "rep": "rep-05",
+      "request_types": 17,
+      "selection_ratio": 0.03823775339195935
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1624.0509352940728,
+      "policy": "inv",
+      "rep": "rep-05",
+      "request_types": 17,
+      "selection_ratio": 0.18089972064279364
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1257.4019463927514,
+      "policy": "uni",
+      "rep": "rep-05",
+      "request_types": 17,
+      "selection_ratio": 0.5002753700717146
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 908.9699826354663,
+      "policy": "omni",
+      "rep": "rep-05",
+      "request_types": 17,
+      "selection_ratio": 0.2233921590089147
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-06",
+      "request_types": 17,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1394.8076419541037,
+      "policy": "adp",
+      "rep": "rep-06",
+      "request_types": 17,
+      "selection_ratio": 0.046459060982099086
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1483.701874686426,
+      "policy": "inv",
+      "rep": "rep-06",
+      "request_types": 17,
+      "selection_ratio": 0.18139953893125235
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1379.0922053707761,
+      "policy": "uni",
+      "rep": "rep-06",
+      "request_types": 17,
+      "selection_ratio": 0.5002740798815877
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1018.4918455401764,
+      "policy": "omni",
+      "rep": "rep-06",
+      "request_types": 17,
+      "selection_ratio": 0.22159465267033265
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-07",
+      "request_types": 17,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1328.6412364436915,
+      "policy": "adp",
+      "rep": "rep-07",
+      "request_types": 17,
+      "selection_ratio": 0.041509582826981965
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1170.0718932918826,
+      "policy": "inv",
+      "rep": "rep-07",
+      "request_types": 17,
+      "selection_ratio": 0.18097188492459163
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1173.1995577796588,
+      "policy": "uni",
+      "rep": "rep-07",
+      "request_types": 17,
+      "selection_ratio": 0.5002453886532358
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1188.7242709708835,
+      "policy": "omni",
+      "rep": "rep-07",
+      "request_types": 17,
+      "selection_ratio": 0.22788095059334795
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-08",
+      "request_types": 17,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1305.1449469925878,
+      "policy": "adp",
+      "rep": "rep-08",
+      "request_types": 17,
+      "selection_ratio": 0.05347808817969172
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1549.6532442676914,
+      "policy": "inv",
+      "rep": "rep-08",
+      "request_types": 17,
+      "selection_ratio": 0.17761278781787596
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1034.2198094347789,
+      "policy": "uni",
+      "rep": "rep-08",
+      "request_types": 17,
+      "selection_ratio": 0.5002524604238991
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1203.0157231032265,
+      "policy": "omni",
+      "rep": "rep-08",
+      "request_types": 17,
+      "selection_ratio": 0.2271641759840997
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-09",
+      "request_types": 17,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1245.1596960428321,
+      "policy": "adp",
+      "rep": "rep-09",
+      "request_types": 17,
+      "selection_ratio": 0.04322550831955427
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1451.1569529937237,
+      "policy": "inv",
+      "rep": "rep-09",
+      "request_types": 17,
+      "selection_ratio": 0.18163456499709515
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1417.7944242270337,
+      "policy": "uni",
+      "rep": "rep-09",
+      "request_types": 17,
+      "selection_ratio": 0.5002859191636182
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1030.8296884606207,
+      "policy": "omni",
+      "rep": "rep-09",
+      "request_types": 17,
+      "selection_ratio": 0.223183152953858
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 0.0,
+      "policy": "full",
+      "rep": "rep-10",
+      "request_types": 17,
+      "selection_ratio": 1.0
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1283.299136472619,
+      "policy": "adp",
+      "rep": "rep-10",
+      "request_types": 17,
+      "selection_ratio": 0.04087723840201883
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1144.3488992307393,
+      "policy": "inv",
+      "rep": "rep-10",
+      "request_types": 17,
+      "selection_ratio": 0.18239279742728484
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 1004.3552824009317,
+      "policy": "uni",
+      "rep": "rep-10",
+      "request_types": 17,
+      "selection_ratio": 0.500278344059256
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": 762.7827674307155,
+      "policy": "omni",
+      "rep": "rep-10",
+      "request_types": 17,
+      "selection_ratio": 0.2220828670282744
+    }
+  ],
+  "methodology_notes": [
+    "after negative heap deltas are discarded, a sampled cycle with no remaining positive-memory observations is scored as a zero-memory estimate rather than treated as a missing marker",
+    "tradebeans-release is the exact TPCC-backed companion-artifact arm and is not claimed to be DayTrader",
+    "xalan-release uses the stable XML input filename as request identity; the released source queues 17 inputs although the paper reports 16 types"
+  ],
+  "mode": "original-fixed-schedule-suite",
+  "results": [
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": {
+        "mean": 0.0,
+        "stdev": 0.0
+      },
+      "policy": "full",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 1.0,
+        "stdev": 0.0
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": {
+        "mean": 1119.091320787198,
+        "stdev": 283.351882025102
+      },
+      "policy": "adp",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.2644822686864243,
+        "stdev": 0.012647992287223022
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": {
+        "mean": 1136.1663720335655,
+        "stdev": 158.47827378558094
+      },
+      "policy": "inv",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.27958358319108534,
+        "stdev": 0.007707075287035915
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": {
+        "mean": 1257.7872366532697,
+        "stdev": 154.82126295248364
+      },
+      "policy": "uni",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.49998855936166803,
+        "stdev": 9.118140523779285e-07
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "cassandra",
+      "benchmark_display": "cassandra",
+      "paper_cycle_rmse_kb": {
+        "mean": 1241.7212015481693,
+        "stdev": 153.72396819521063
+      },
+      "policy": "omni",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.7069830844791516,
+        "stdev": 0.00439266602665953
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": {
+        "mean": 0.0,
+        "stdev": 0.0
+      },
+      "policy": "full",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 1.0,
+        "stdev": 0.0
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": {
+        "mean": 386.5710576164289,
+        "stdev": 63.490137839777645
+      },
+      "policy": "adp",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.4356100747947248,
+        "stdev": 0.007121430052496452
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": {
+        "mean": 412.4124846057745,
+        "stdev": 73.36102071973133
+      },
+      "policy": "inv",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.17795216270236341,
+        "stdev": 0.00854977084815692
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": {
+        "mean": 342.4769768984313,
+        "stdev": 73.3579047961412
+      },
+      "policy": "uni",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.5002497070461202,
+        "stdev": 4.531039208856643e-06
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "h2",
+      "benchmark_display": "h2",
+      "paper_cycle_rmse_kb": {
+        "mean": 334.55652746921703,
+        "stdev": 64.00774591718492
+      },
+      "policy": "omni",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.220941330108473,
+        "stdev": 0.0051703010677226005
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": {
+        "mean": 0.0,
+        "stdev": 0.0
+      },
+      "policy": "full",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 1.0,
+        "stdev": 0.0
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": {
+        "mean": 1689.9293821629649,
+        "stdev": 390.5270378478789
+      },
+      "policy": "adp",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.4975577810690819,
+        "stdev": 0.0010685392799438273
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": {
+        "mean": 3651.2275812257476,
+        "stdev": 557.7053583239519
+      },
+      "policy": "inv",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.16135067579015314,
+        "stdev": 0.001740615988360103
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": {
+        "mean": 3514.428491078036,
+        "stdev": 858.6309920046289
+      },
+      "policy": "uni",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.4999882229973296,
+        "stdev": 1.0434146485574794e-06
+      }
+    },
+    {
+      "artifact_mode": "paper-runtime",
+      "benchmark": "lusearch",
+      "benchmark_display": "lusearch",
+      "paper_cycle_rmse_kb": {
+        "mean": 1380.2908115288355,
+        "stdev": 342.2933828780657
+      },
+      "policy": "omni",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.9999482969588559,
+        "stdev": 0.00010214578497499736
+      }
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": {
+        "mean": 0.0,
+        "stdev": 0.0
+      },
+      "policy": "full",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 1.0,
+        "stdev": 0.0
+      }
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": {
+        "mean": 397.6515247475235,
+        "stdev": 65.85527082945637
+      },
+      "policy": "adp",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.4539872222302727,
+        "stdev": 0.007364698207836331
+      }
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": {
+        "mean": 389.4142580273685,
+        "stdev": 82.49574631968886
+      },
+      "policy": "inv",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.18863257998585126,
+        "stdev": 0.010198384619452211
+      }
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": {
+        "mean": 370.17504742623066,
+        "stdev": 62.184100188270584
+      },
+      "policy": "uni",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.5002543914078073,
+        "stdev": 5.453230277253259e-06
+      }
+    },
+    {
+      "artifact_mode": "released-tpcc-substitute",
+      "benchmark": "tradebeans",
+      "benchmark_display": "tradebeans-release*",
+      "paper_cycle_rmse_kb": {
+        "mean": 356.33192360814706,
+        "stdev": 81.46938745394063
+      },
+      "policy": "omni",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.25918584490810503,
+        "stdev": 0.005593583192390682
+      }
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": {
+        "mean": 0.0,
+        "stdev": 0.0
+      },
+      "policy": "full",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 1.0,
+        "stdev": 0.0
+      }
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": {
+        "mean": 1310.710824940096,
+        "stdev": 136.59075040608414
+      },
+      "policy": "adp",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.044233542940165946,
+        "stdev": 0.004189826807204167
+      }
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": {
+        "mean": 1447.7998433376822,
+        "stdev": 175.94243265943902
+      },
+      "policy": "inv",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.1803647479362115,
+        "stdev": 0.0015905536075114478
+      }
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": {
+        "mean": 1169.9562673771088,
+        "stdev": 157.23212362912736
+      },
+      "policy": "uni",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.5002642188982899,
+        "stdev": 1.5390985387107292e-05
+      }
+    },
+    {
+      "artifact_mode": "released-source-17-inputs",
+      "benchmark": "xalan",
+      "benchmark_display": "xalan-release*",
+      "paper_cycle_rmse_kb": {
+        "mean": 1077.1844250480049,
+        "stdev": 169.63145782157775
+      },
+      "policy": "omni",
+      "reps": 10,
+      "selection_ratio": {
+        "mean": 0.2256741514760925,
+        "stdev": 0.0031508695343317517
+      }
+    }
+  ]
+}

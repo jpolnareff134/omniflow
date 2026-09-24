@@ -1,0 +1,190 @@
+# fio Latency Workload for I/O p99 Detection Experiment (Phase 7 of setup.sh).
+#
+# Uses fio (Flexible I/O Tester, https://github.com/axboe/fio) – the Linux
+# industry-standard block I/O benchmark – to generate a cyclic write+fsync
+# workload whose three phases create a well-defined p99 tail-latency signal.
+#
+# Key fio flags used here:
+#   --fsync=1          issue fsync(2) after every write(2); the eBPF tracepoint
+#                      in omniflow_io_daemon.py observes both write and fsync
+#   --rate_iops=N      cap IOPS during CALM so the baseline is stable
+#   --time_based       repeat the workload to fill exactly --runtime seconds
+#   --lat_percentiles=1
+#   --percentile_list=50:99:99.9
+#                      emit p50/p99/p999 latencies to stdout each phase
+#   --output-format=normal
+#                      human-readable; grep-able from kubectl logs
+#
+# Approximate per-replica I/O rates (write + fsync = 2 syscalls per op):
+#
+#   Phase   bs      jobs  rate_iops  syscalls/s   counts per 0.2 s poll
+#   ------  ------  ----  ---------  -----------  ---------------------
+#   CALM    8 KB    1     20         ~40           ~8
+#   RAMP    64 KB   2     -          ~200+         ~40
+#   SPIKE   256 KB  4     -          disk-bound    ~200-1000
+#
+# With two replicas running in lockstep (JITTER_MAX=0): both replicas always
+# execute the same phase simultaneously, so the aggregate syscall signal seen
+# by the eBPF probe is reproducible across the three measurement arms.
+# 2x syscall rates during RAMP/SPIKE produce 3-8x the CALM baseline.
+#
+# The --fsync=1 flag makes every write synchronous at the FS layer, which is
+# the primary driver of elevated write+fsync syscall counts – identical to the
+# behaviour of PostgreSQL (WAL checkpoints) and Redis (AOF appendfsync).
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fio-latency-script
+  namespace: omniflow-io
+data:
+  run.sh: |
+    #!/bin/bash
+    set -euo pipefail
+
+    CALM_DUR=${CALM_DURATION:-60}
+    RAMP_DUR=${RAMP_DURATION:-20}
+    SPIKE_DUR=${SPIKE_DURATION:-15}
+    WORK_DIR=${WORK_DIR:-/tmp/fio_bench}
+    READY_FILE=${READY_FILE:-/tmp/fio_bench/.cycle_ready}
+    JITTER_MAX=${JITTER_MAX:-60}
+    FIO_SIZE=${FIO_SIZE:-512m}
+
+    # Install fio if not already present (Debian bookworm-slim base image).
+    if ! command -v fio &>/dev/null; then
+      echo "[fio-latency] Installing fio from apt ..."
+      apt-get update -qq \
+        && apt-get install -y -qq --no-install-recommends fio \
+        && rm -rf /var/lib/apt/lists/*
+    fi
+
+    echo "[fio-latency] $(fio --version)"
+    mkdir -p "$WORK_DIR"
+    rm -f "$READY_FILE"
+
+    # Startup jitter – randomises replica start time so their SPIKE windows
+    # are asynchronous.  Uses bash $RANDOM (0-32767).
+    jitter=$(( RANDOM % (JITTER_MAX + 1) ))
+    echo "[fio-latency] Startup jitter ${jitter}s – de-synchronising replicas"
+    sleep "$jitter"
+
+    echo "[fio-latency] Starting cycle: CALM -> RAMP -> SPIKE -> repeat"
+    touch "$READY_FILE"
+    echo "[fio-latency] Cycle-ready marker created; entering first cycle"
+
+    # Wrapper: shared fio flags + per-phase overrides.
+    # --lat_percentiles=1  enables the percentile table in normal output.
+    # --percentile_list    selects exactly p50, p99, p99.9.
+    _fio() {
+      local phase=$1; shift
+      echo "[fio-latency] --- ${phase} ---"
+      fio \
+        --name="$phase" \
+        --directory="$WORK_DIR" \
+        --ioengine=sync \
+        --numjobs=1 \
+        --group_reporting \
+        --lat_percentiles=1 \
+        --percentile_list=50:99:99.9 \
+        --output-format=normal \
+        "$@"
+    }
+
+    while true; do
+      _fio calm \
+        --rw=write \
+        --bs=8k \
+        --size="$FIO_SIZE" \
+        --numjobs=1 \
+        --fsync=1 \
+        --rate_iops=20 \
+        --time_based \
+        --runtime="$CALM_DUR"
+
+      _fio ramp \
+        --rw=write \
+        --bs=64k \
+        --size="$FIO_SIZE" \
+        --numjobs=2 \
+        --fsync=1 \
+        --time_based \
+        --runtime="$RAMP_DUR"
+
+      _fio spike \
+        --rw=randwrite \
+        --bs=256k \
+        --size="$FIO_SIZE" \
+        --numjobs=4 \
+        --fsync=1 \
+        --time_based \
+        --runtime="$SPIKE_DUR"
+    done
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fio-latency
+  namespace: omniflow-io
+  labels:
+    app: fio-latency
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: fio-latency
+  template:
+    metadata:
+      labels:
+        app: fio-latency
+    spec:
+      # Must run on the same node as the OmniFlow daemon so the eBPF
+      # tracepoint observes the write/fsync syscalls.
+      nodeSelector:
+        kubernetes.io/hostname: NODE_PLACEHOLDER
+      containers:
+        - name: fio
+          image: debian:bookworm-slim
+          command: [ "/bin/bash", "/scripts/run.sh" ]
+          env:
+            - name: CALM_DURATION
+              value: "60"
+            - name: RAMP_DURATION
+              value: "20"
+            - name: SPIKE_DURATION
+              value: "15"
+            - name: FIO_SIZE
+              value: "512m"
+            - name: WORK_DIR
+              value: "/tmp/fio_bench"
+            - name: READY_FILE
+              value: "/tmp/fio_bench/.cycle_ready"
+            - name: JITTER_MAX
+              value: "0"   # 0 = no jitter; both replicas start cycle together
+            - name: DEBIAN_FRONTEND
+              value: "noninteractive"
+          readinessProbe:
+            exec:
+              command: [ "/bin/sh", "-c", "test -f /tmp/fio_bench/.cycle_ready" ]
+            initialDelaySeconds: 1
+            periodSeconds: 2
+          volumeMounts:
+            - name: script
+              mountPath: /scripts
+            - name: workdir
+              mountPath: /tmp/fio_bench
+          resources:
+            requests:
+              cpu: 100m
+              memory: 64Mi
+            limits:
+              cpu: 1000m
+              memory: 128Mi
+      volumes:
+        - name: script
+          configMap:
+            name: fio-latency-script
+            defaultMode: 0755
+        - name: workdir
+          emptyDir: { }

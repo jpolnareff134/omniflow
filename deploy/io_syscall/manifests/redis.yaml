@@ -1,0 +1,143 @@
+# Redis StatefulSet configured for heavy write load (workload).
+#
+# Settings that drive high write / fsync syscall rates:
+#   appendonly yes          ->  every write is appended to the AOF log
+#   appendfsync everysec    ->  fsync once per second (sustained fsync rate)
+#   save ""                 ->  disable RDB snapshots (pure AOF mode)
+#
+# A redis-benchmark Deployment runs a continuous mixed SET/GET workload.
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: redis-config
+  namespace: omniflow-io
+data:
+  redis.conf: |
+    appendonly yes
+    appendfsync everysec
+    save ""
+    loglevel warning
+    maxmemory 256mb
+    maxmemory-policy allkeys-lru
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis
+  namespace: omniflow-io
+  labels:
+    app: redis
+spec:
+  clusterIP: None
+  selector:
+    app: redis
+  ports:
+    - name: redis
+      port: 6379
+      targetPort: 6379
+
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis
+  namespace: omniflow-io
+  labels:
+    app: redis
+spec:
+  serviceName: redis
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: NODE_PLACEHOLDER
+      containers:
+        - name: redis
+          image: redis:7
+          ports:
+            - containerPort: 6379
+          command:
+            - redis-server
+            - /etc/redis/redis.conf
+          volumeMounts:
+            - name: redis-config
+              mountPath: /etc/redis
+            - name: redis-data
+              mountPath: /data
+          readinessProbe:
+            exec:
+              command: [ "redis-cli", "ping" ]
+            initialDelaySeconds: 5
+            periodSeconds: 5
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 320Mi
+      volumes:
+        - name: redis-config
+          configMap:
+            name: redis-config
+        - name: redis-data
+          emptyDir: { }
+
+---
+# Continuous redis-benchmark Deployment.
+# Runs a sustained 70% SET / 30% GET mix by issuing a SET-heavy round
+# followed by a GET round. The parser sums each pair of throughput lines
+# into one logical sample for comparison.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-benchmark
+  namespace: omniflow-io
+  labels:
+    app: redis-benchmark
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis-benchmark
+  template:
+    metadata:
+      labels:
+        app: redis-benchmark
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: NODE_PLACEHOLDER
+      containers:
+        - name: benchmark
+          image: redis:7
+          command:
+            - /bin/sh
+            - -c
+            - |
+              HOST=redis.omniflow-io.svc.cluster.local
+              echo "Waiting for redis service ..."
+              until redis-cli -h "$HOST" ping | grep -q PONG; do sleep 2; done
+              echo "Starting benchmark loop ..."
+              while true; do
+                redis-benchmark -h "$HOST" -n 70000 -c 20 -q \
+                  -t set -d 64
+                redis-benchmark -h "$HOST" -n 30000 -c 20 -q \
+                  -t get -d 64
+                sleep 1
+              done
+          resources:
+            requests:
+              cpu: 100m
+              memory: 64Mi
+            limits:
+              cpu: 400m
+              memory: 128Mi

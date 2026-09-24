@@ -1,0 +1,52 @@
+# OmniFlow I/O Syscall Daemon – Docker image
+#
+# Base: Ubuntu 22.04 with python3-bcc pre-installed.
+# The BCC library (python3-bcc) is tightly coupled to the kernel ABI, so
+# we use the distro package rather than pip to avoid version mismatches.
+#
+# Kernel headers for 6.6.95 (the minikube ISO kernel) are COPIED from
+# the folder in the variable `KERNEL_HEADERS_DIR` which setup.sh downloads before invoking
+# docker build. BCC is pointed at them via BCC_KERNEL_SOURCE (set in the
+# DaemonSet manifest) so it never needs headers on the host node.
+#
+# Build (from repo root):
+#   docker build -t omniflow-io-daemon:latest -f deploy/io_syscall/Dockerfile.daemon_io .
+
+FROM ubuntu:22.04
+
+# Suppress interactive prompts from apt
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        python3 \
+        python3-pip \
+        python3-bpfcc \
+        bpfcc-tools \
+        xz-utils \
+    && rm -rf /var/lib/apt/lists/*
+
+# Assumes to bed passed as --build-arg KERNEL_HEADERS_DIR=path/to/headers on docker build command, and that setup.sh has downloaded the header debs to that path before invoking docker build.
+ARG KERNEL_HEADERS_DIR
+
+COPY $KERNEL_HEADERS_DIR/linux-headers-all.deb  /tmp/
+COPY $KERNEL_HEADERS_DIR/linux-headers-amd64.deb /tmp/
+RUN mkdir /tmp/hdrs && \
+    dpkg -x /tmp/linux-headers-all.deb  /tmp/hdrs && \
+    dpkg -x /tmp/linux-headers-amd64.deb /tmp/hdrs && \
+    cp -a /tmp/hdrs/usr/src/. /usr/src/ && \
+    rm -rf /tmp/hdrs /tmp/linux-headers-all.deb /tmp/linux-headers-amd64.deb
+
+WORKDIR /app
+
+# Python dependencies (prometheus_client + numpy for OmniFlow core)
+RUN pip3 install --no-cache-dir prometheus_client numpy
+
+# OmniFlow library
+COPY src/ ./src/
+
+# Daemon entry point
+COPY deploy/io_syscall/omniflow_io_daemon.py .
+
+ENV PYTHONUNBUFFERED=1
+
+ENTRYPOINT ["python3", "omniflow_io_daemon.py"]
